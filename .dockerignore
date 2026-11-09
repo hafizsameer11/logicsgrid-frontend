@@ -1,0 +1,11 @@
+.git
+node_modules
+.output
+.tanstack
+.wrangler
+.nitro
+.claude
+cms
+.env
+.env.*
+!.env.example
