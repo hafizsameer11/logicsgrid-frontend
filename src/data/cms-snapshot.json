@@ -1,0 +1,3667 @@
+{
+  "site": {
+    "name": "LogicsGrid",
+    "tagline": "Design, development, deployment and support, A to Z.",
+    "logo": null,
+    "logoIcon": null,
+    "favicon": null,
+    "email": "hello@logicsgrid.org",
+    "phone": "+92 329 0112060",
+    "whatsapp": "923290112060",
+    "location": "Faisalabad, Punjab, Pakistan",
+    "hours": "Mon–Sat, 10 am – 7 pm PKT",
+    "hoursNote": "with overlap hours for UK, US and Gulf clients",
+    "stats": [
+      {
+        "value": 5,
+        "suffix": "+",
+        "label": "Years of experience"
+      },
+      {
+        "value": 200,
+        "suffix": "+",
+        "label": "Projects delivered"
+      },
+      {
+        "value": 20,
+        "suffix": "+",
+        "label": "Team members"
+      },
+      {
+        "value": 6,
+        "suffix": "",
+        "label": "Core services"
+      }
+    ],
+    "trustPoints": [
+      "Based in Faisalabad, Pakistan",
+      "UK, US & Gulf overlap hours",
+      "Design to deployment",
+      "Long-term support"
+    ],
+    "socialLinks": [
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com"
+      }
+    ],
+    "headerLinks": [
+      {
+        "label": "Work",
+        "url": "/work"
+      },
+      {
+        "label": "For startups",
+        "url": "/startups"
+      },
+      {
+        "label": "For agencies",
+        "url": "/agencies"
+      },
+      {
+        "label": "Technologies",
+        "url": "/technologies"
+      },
+      {
+        "label": "About",
+        "url": "/about"
+      }
+    ],
+    "footerColumns": [
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About",
+            "url": "/about"
+          },
+          {
+            "label": "Work",
+            "url": "/work"
+          },
+          {
+            "label": "For startups",
+            "url": "/startups"
+          },
+          {
+            "label": "For agencies",
+            "url": "/agencies"
+          },
+          {
+            "label": "Technologies",
+            "url": "/technologies"
+          },
+          {
+            "label": "Care plans",
+            "url": "/care-plans"
+          },
+          {
+            "label": "Free audit",
+            "url": "/free-audit"
+          },
+          {
+            "label": "Contact",
+            "url": "/contact"
+          }
+        ]
+      }
+    ],
+    "budgetRanges": [
+      "Under $1,000",
+      "$1,000–$5,000",
+      "$5,000–$15,000",
+      "$15,000+",
+      "Not sure yet"
+    ],
+    "commonFaqs": [
+      {
+        "q": "How do projects start?",
+        "a": "With a free 30-minute consultation. We clarify the outcome, then send a written plan and estimate within 48 hours."
+      },
+      {
+        "q": "Can you work with an existing product?",
+        "a": "Yes. We can audit, stabilise, modernise or extend an existing platform without forcing a complete rebuild."
+      },
+      {
+        "q": "Do you stay involved after launch?",
+        "a": "Yes. Every project can move onto a care plan for monitoring, updates, fixes and new features."
+      },
+      {
+        "q": "Who owns the code?",
+        "a": "You do. Code, designs, accounts and documentation are handed over to you at the end of the project."
+      },
+      {
+        "q": "How do you keep us updated?",
+        "a": "You get a weekly progress update with what was finished, what is next and any decisions we need from you."
+      },
+      {
+        "q": "Do you work with international clients?",
+        "a": "Yes. We are based in Faisalabad, Pakistan, and keep overlap hours for UK, US and Gulf clients."
+      }
+    ],
+    "deploymentIncluded": [
+      {
+        "title": "Servers and hosting",
+        "text": "Cloud or shared hosting set up for your traffic and budget."
+      },
+      {
+        "title": "Domains and SSL",
+        "text": "Domain, DNS, email records and HTTPS configured correctly."
+      },
+      {
+        "title": "CI/CD",
+        "text": "Automated build and release so updates go out safely."
+      },
+      {
+        "title": "App store releases",
+        "text": "Apple and Google submissions, listings and review handling."
+      },
+      {
+        "title": "Monitoring",
+        "text": "Uptime, error and performance alerts after launch."
+      },
+      {
+        "title": "Handover",
+        "text": "Accounts, access, code and documentation handed to you."
+      }
+    ],
+    "cta": {
+      "title": "Have an idea or a problem to solve?",
+      "text": "Book a free 30-minute consultation. You get a written plan and estimate within 48 hours.",
+      "button": "Book a consultation"
+    },
+    "seo": {
+      "title": "LogicsGrid | Software, app & AI development in Pakistan",
+      "description": "SaaS products, web and mobile apps, booking systems and AI automation, designed, built, deployed and supported by LogicsGrid in Faisalabad, Pakistan.",
+      "ogImage": null,
+      "googleAnalyticsId": null,
+      "googleSiteVerification": null
+    },
+    "services": [
+      {
+        "slug": "saas-mvp-development",
+        "title": "SaaS & MVP development",
+        "short": "Turn an idea into a launch-ready product, then keep improving it with real users.",
+        "icon": "rocket"
+      },
+      {
+        "slug": "web-applications-websites",
+        "title": "Web applications & websites",
+        "short": "Custom platforms, client portals, business websites and online stores built around how you work.",
+        "icon": "layout-template"
+      },
+      {
+        "slug": "mobile-app-development",
+        "title": "Mobile app development",
+        "short": "iOS and Android apps that connect to your systems and get published to the stores.",
+        "icon": "smartphone"
+      },
+      {
+        "slug": "booking-business-management-systems",
+        "title": "Booking & business management systems",
+        "short": "Online booking, memberships, CRMs and ERP-style systems that replace manual work.",
+        "icon": "calendar-check"
+      },
+      {
+        "slug": "ai-integration-automation",
+        "title": "AI integration & automation",
+        "short": "AI agents, agentic workflows, LLM features, RAG chatbots and automation built into your product and operations.",
+        "icon": "bot"
+      },
+      {
+        "slug": "white-label-development",
+        "title": "White-label development for agencies",
+        "short": "Your brand, your client relationship. Our team designs, builds and deploys.",
+        "icon": "handshake"
+      }
+    ]
+  },
+  "pages": {
+    "home": {
+      "slug": "home",
+      "hero": {
+        "eyebrow": "One integrated technology partner",
+        "title": "DESIGN & BUILD.\nDEPLOY FASTER.\nSUPPORT A TO Z.",
+        "text": "LogicsGrid designs, builds, deploys and supports SaaS products, web and mobile apps, booking systems and AI automation for founders, businesses and agencies, from Faisalabad, Pakistan.",
+        "labels": [
+          "Software",
+          "AI",
+          "Growth",
+          "Operations",
+          "Automation",
+          "Deployment"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "stats",
+          "data": {
+            "animated": true
+          }
+        },
+        {
+          "type": "problem_merge",
+          "data": {
+            "eyebrow": "The real problem",
+            "title": "Building is one thing.",
+            "subtitle": "Running it is another.",
+            "fragments": [
+              "Agency",
+              "Freelancers",
+              "In-House Team",
+              "No-Code Stack"
+            ],
+            "logo_caption": "One accountable operating partner",
+            "text": "Most companies stitch together an agency, freelancers, internal teams, and no-code tools — then end up owning all the integration risk themselves.",
+            "rows": [
+              {
+                "label": "The Agency",
+                "pain": "Ships a product, then disappears.",
+                "ours": "We stay on the metric."
+              },
+              {
+                "label": "Freelancers",
+                "pain": "Disconnected output. No shared KPIs.",
+                "ours": "One contract. One owner."
+              },
+              {
+                "label": "In-House Team",
+                "pain": "Slow to hire.",
+                "ours": "Embedded in week one."
+              },
+              {
+                "label": "No-Code Stack",
+                "pain": "Works until scale arrives.",
+                "ours": "Built to outlive launch."
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Capabilities",
+            "title": "Six services, one accountable team",
+            "text": "Design, development, deployment and support, A to Z. Deployment is part of every project.",
+            "style": "cards"
+          }
+        },
+        {
+          "type": "cards",
+          "data": {
+            "eyebrow": "Who we work with",
+            "title": "Different teams. The same need for momentum.",
+            "alt": true,
+            "items": [
+              {
+                "title": "Startups and founders",
+                "text": "Validate, launch and evolve a product without assembling five separate teams.",
+                "footnote": "/startups"
+              },
+              {
+                "title": "Growing businesses",
+                "text": "Turn manual customer and operational workflows into reliable digital systems.",
+                "footnote": "/services"
+              },
+              {
+                "title": "Agencies",
+                "text": "Expand technical capacity with white-label delivery your clients can trust.",
+                "footnote": "/agencies"
+              }
+            ]
+          }
+        },
+        {
+          "type": "work",
+          "data": {
+            "eyebrow": "Selected work",
+            "title": "Products built for real customers",
+            "alt": true
+          }
+        },
+        {
+          "type": "scroll_process",
+          "data": {
+            "eyebrow": "How we work",
+            "title": "From idea to a product that keeps running.",
+            "items": [
+              {
+                "title": "Discover",
+                "text": "Understand your goals, users, constraints and current systems."
+              },
+              {
+                "title": "Plan",
+                "text": "Agree scope, timeline, architecture and a fixed-scope proposal."
+              },
+              {
+                "title": "Design",
+                "text": "User flows and interface designs you approve before code."
+              },
+              {
+                "title": "Build",
+                "text": "Development in sprints with weekly progress updates."
+              },
+              {
+                "title": "Deploy",
+                "text": "Servers, domains, SSL, CI/CD, store releases and monitoring."
+              },
+              {
+                "title": "Support",
+                "text": "Care plans for fixes, updates and new features after launch."
+              }
+            ]
+          }
+        },
+        {
+          "type": "why_grid",
+          "data": {
+            "eyebrow": "Why LogicsGrid",
+            "title": "Why teams choose LogicsGrid.",
+            "items": [
+              {
+                "title": "Fixed-scope proposals",
+                "text": "You know what is being built and when, before work starts."
+              },
+              {
+                "title": "Overlap hours",
+                "text": "Based in Pakistan, with overlap hours for UK, US and Gulf clients."
+              },
+              {
+                "title": "Post-launch support",
+                "text": "Care plans keep your product secure, current and improving."
+              },
+              {
+                "title": "Weekly progress updates",
+                "text": "Clear updates on what is done, what is next and what we need."
+              },
+              {
+                "title": "Deployment included",
+                "text": "Servers, domains, SSL and store releases are part of every project."
+              },
+              {
+                "title": "You own everything",
+                "text": "Code, designs, accounts and documentation are handed over to you."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "title": "What teams ask before we start",
+            "use_common": true
+          }
+        },
+        {
+          "type": "cta",
+          "data": []
+        }
+      ],
+      "seo": {
+        "seo_title": "LogicsGrid | Software, app & AI development in Pakistan",
+        "seo_description": "SaaS products, web and mobile apps, booking systems and AI automation, designed, built, deployed and supported by LogicsGrid in Faisalabad, Pakistan.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "services": {
+      "slug": "services",
+      "hero": {
+        "eyebrow": "Services",
+        "title": "Software that runs your business, built A to Z.",
+        "text": "Six core services delivered by one team: design, development, deployment and support. Pick one, or combine them for a complete product.",
+        "labels": [
+          "SaaS",
+          "Web",
+          "Mobile",
+          "AI"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "title": "Six services, one accountable team",
+            "text": "Each service includes discovery, design, development, deployment and support. You never have to stitch suppliers together.",
+            "style": "cards"
+          }
+        },
+        {
+          "type": "checklist",
+          "data": {
+            "eyebrow": "Included in every project",
+            "title": "Deployment is part of the job, not an extra",
+            "text": "Many projects stall between “finished” and “live”. We take care of the whole path to production and hand you the keys.",
+            "alt": true,
+            "items": [],
+            "layers": [
+              "Design",
+              "Development",
+              "Deployment",
+              "Support"
+            ],
+            "principles": [
+              {
+                "title": "Servers and hosting",
+                "text": "Cloud or shared hosting set up for your traffic and budget."
+              },
+              {
+                "title": "Domains and SSL",
+                "text": "Domain, DNS, email records and HTTPS configured correctly."
+              },
+              {
+                "title": "CI/CD",
+                "text": "Automated build and release so updates go out safely."
+              },
+              {
+                "title": "App store releases",
+                "text": "Apple and Google submissions, listings and review handling."
+              },
+              {
+                "title": "Monitoring",
+                "text": "Uptime, error and performance alerts after launch."
+              },
+              {
+                "title": "Handover",
+                "text": "Accounts, access, code and documentation handed to you."
+              }
+            ]
+          }
+        },
+        {
+          "type": "steps",
+          "data": {
+            "eyebrow": "How a project runs",
+            "title": "Six clear stages, one team",
+            "text": "The same process across every service, so you always know where the project is and what happens next.",
+            "items": [
+              {
+                "title": "Discover",
+                "text": "A free consultation to understand the goal, users, constraints and current systems.",
+                "output": "A clear problem statement"
+              },
+              {
+                "title": "Plan",
+                "text": "Scope, timeline and architecture written down in a fixed-scope proposal.",
+                "output": "Plan and estimate within 48 hours"
+              },
+              {
+                "title": "Design",
+                "text": "User flows and interface designs you review and approve before development.",
+                "output": "Approved designs"
+              },
+              {
+                "title": "Build",
+                "text": "Development in short sprints with a weekly progress update.",
+                "output": "Working software every week"
+              },
+              {
+                "title": "Deploy",
+                "text": "Servers, domains, SSL, CI/CD, store releases and monitoring set up for you.",
+                "output": "A live product"
+              },
+              {
+                "title": "Support",
+                "text": "Care plans for fixes, updates and improvements once you are live.",
+                "output": "A product that keeps improving"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cards",
+          "data": {
+            "eyebrow": "Ways to work with us",
+            "title": "Choose the engagement that fits",
+            "alt": true,
+            "note": "Already live? See care plans for monitoring, updates and improvements.",
+            "items": [
+              {
+                "label": "Model 1",
+                "title": "Fixed-scope project",
+                "text": "A defined scope, timeline and team for one outcome, such as an MVP, website or booking system.",
+                "footnote": "Best for new builds with a clear goal"
+              },
+              {
+                "label": "Model 2",
+                "title": "Monthly dedicated team",
+                "text": "Developers, design and QA reserved for your roadmap, planned in weekly sprints.",
+                "footnote": "Best for live products with ongoing work",
+                "highlight": true
+              },
+              {
+                "label": "Model 3",
+                "title": "White-label partnership",
+                "text": "We deliver under your agency brand, per project or with monthly capacity.",
+                "footnote": "Best for agencies and consultants"
+              }
+            ]
+          }
+        },
+        {
+          "type": "numbered_rows",
+          "data": {
+            "eyebrow": "What you can count on",
+            "title": "The same standards on every project",
+            "columns": 2,
+            "items": [
+              {
+                "title": "You own everything",
+                "text": "Code, designs, accounts and documentation are yours at handover."
+              },
+              {
+                "title": "Fixed-scope proposals",
+                "text": "You know what is being built, by when, before work begins."
+              },
+              {
+                "title": "Weekly progress updates",
+                "text": "What was done, what is next, and what we need from you."
+              },
+              {
+                "title": "One accountable team",
+                "text": "Design, development, deployment and support under one roof."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": []
+        },
+        {
+          "type": "compare_table",
+          "data": {
+            "eyebrow": "Custom or off the shelf?",
+            "title": "When custom software makes sense",
+            "text": "Ready-made tools are great to start with. Custom software pays off when your workflow, branding or costs no longer fit them.",
+            "alt": true,
+            "columns": [
+              "LogicsGrid",
+              "Ready-made software",
+              "Separate freelancers"
+            ],
+            "rows": [
+              {
+                "label": "Built around your workflow",
+                "values": [
+                  "yes",
+                  "no",
+                  "Varies"
+                ]
+              },
+              {
+                "label": "You own the code",
+                "values": [
+                  "yes",
+                  "no",
+                  "Varies"
+                ]
+              },
+              {
+                "label": "No per-user monthly fees",
+                "values": [
+                  "yes",
+                  "no",
+                  "yes"
+                ]
+              },
+              {
+                "label": "Design, build and deployment together",
+                "values": [
+                  "yes",
+                  "Not needed",
+                  "no"
+                ]
+              },
+              {
+                "label": "Support after launch",
+                "values": [
+                  "Care plans",
+                  "Vendor support",
+                  "Varies"
+                ]
+              },
+              {
+                "label": "Single point of contact",
+                "values": [
+                  "yes",
+                  "yes",
+                  "no"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "marquee",
+          "data": {
+            "eyebrow": "Technology",
+            "title": "Any stack, including yours",
+            "text": "We work across any technology stack. For new builds we recommend proven tools your future team can maintain.",
+            "items": [],
+            "link_label": "See the full technology stack →",
+            "link_url": "/technologies"
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "title": "Questions about our services",
+            "items": [
+              {
+                "q": "Which service do I need?",
+                "a": "Tell us the problem in plain words. We will recommend the right mix in the consultation, often a combination such as a web app plus a mobile app."
+              },
+              {
+                "q": "Do you publish prices?",
+                "a": "No. Every project is scoped individually. After a short call you receive a written plan and estimate within 48 hours."
+              },
+              {
+                "q": "Is deployment extra?",
+                "a": "No. Hosting setup, domains, SSL, CI/CD and store releases are part of every project."
+              },
+              {
+                "q": "Can you work on an existing product?",
+                "a": "Yes. We start with a review of the code and infrastructure, then recommend what to improve, extend or rebuild."
+              },
+              {
+                "q": "Who owns the code?",
+                "a": "You do. Code, designs, accounts and documentation are handed over to you."
+              },
+              {
+                "q": "What happens after launch?",
+                "a": "You can move to a care plan for monitoring, updates and new features, or keep a monthly team."
+              },
+              {
+                "q": "Do you work with clients outside Pakistan?",
+                "a": "Yes. We keep overlap hours for UK, US and Gulf clients and work over video calls, WhatsApp and email."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": []
+        }
+      ],
+      "seo": {
+        "seo_title": "Services",
+        "seo_description": "SaaS and MVP development, web apps and websites, mobile apps, booking systems, AI automation and white-label development, with deployment and support included.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "about": {
+      "slug": "about",
+      "hero": {
+        "eyebrow": "About LogicsGrid",
+        "title": "One team, from first sketch to long-term support.",
+        "text": "LogicsGrid is a software, app and AI development company based in Faisalabad, Punjab, Pakistan. Design, development, deployment and support, A to Z.",
+        "labels": [
+          "Design",
+          "Build",
+          "Deploy",
+          "Support"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "stats",
+          "data": {
+            "eyebrow": "In numbers",
+            "title": "Small enough to care, big enough to deliver"
+          }
+        },
+        {
+          "type": "timeline",
+          "data": {
+            "eyebrow": "Our story",
+            "title": "How we got here",
+            "text": "More than five years of building software for founders, businesses and agencies.",
+            "alt": true,
+            "items": [
+              {
+                "label": "Where we started",
+                "title": "Websites and software, one project at a time",
+                "text": "We began by building websites and software for local and international clients."
+              },
+              {
+                "label": "How we grew",
+                "title": "From websites to full products",
+                "text": "The work grew into SaaS products, mobile apps, booking systems and, more recently, AI automation."
+              },
+              {
+                "label": "What we do now",
+                "title": "The software businesses run on",
+                "text": "Today we design, build, deploy and support complete products, from the first workshop to the updates after launch."
+              },
+              {
+                "label": "Today",
+                "title": "20+ people across Pakistan",
+                "text": "A distributed team working from multiple cities, with headquarters in Faisalabad."
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "title": "Six services, design to deployment",
+            "style": "list"
+          }
+        },
+        {
+          "type": "audience_list",
+          "data": {
+            "eyebrow": "Who we work with",
+            "title": "Three kinds of clients, one standard of work",
+            "alt": true,
+            "items": [
+              {
+                "title": "Founders and startups",
+                "text": "Non-technical founders turning an idea into a launch-ready product."
+              },
+              {
+                "title": "Agencies",
+                "text": "Marketing and design agencies that need a reliable white-label build team."
+              },
+              {
+                "title": "Service businesses",
+                "text": "Clinics, gyms, salons, academies, restaurants, real estate and retail moving from manual work to proper systems."
+              }
+            ]
+          }
+        },
+        {
+          "type": "value_grid",
+          "data": {
+            "eyebrow": "Values",
+            "title": "The standards behind the work",
+            "items": [
+              {
+                "title": "Clarity",
+                "text": "Plain language, written scopes and honest timelines. No jargon walls and no surprises."
+              },
+              {
+                "title": "Ownership",
+                "text": "We treat your product like it matters, because it runs your business. You own everything we build."
+              },
+              {
+                "title": "Craft",
+                "text": "Clean code, careful design and testing on real devices, because customers notice the details."
+              },
+              {
+                "title": "Continuity",
+                "text": "We support what we ship, so the next improvement is easier than the last."
+              }
+            ]
+          }
+        },
+        {
+          "type": "fact_grid",
+          "data": {
+            "eyebrow": "What you can expect",
+            "title": "How working with us feels",
+            "alt": true,
+            "items": [
+              {
+                "title": "Fixed-scope proposals",
+                "text": "A written scope and timeline before work starts."
+              },
+              {
+                "title": "Weekly progress updates",
+                "text": "What is done, what is next and what we need from you."
+              },
+              {
+                "title": "Deployment included",
+                "text": "Servers, domains, SSL and store releases handled."
+              },
+              {
+                "title": "Post-launch support",
+                "text": "Care plans for monitoring, fixes and new features."
+              },
+              {
+                "title": "Full ownership",
+                "text": "Code, designs, accounts and documentation handed over."
+              },
+              {
+                "title": "Confidentiality",
+                "text": "NDAs available on request, and standard for agency work."
+              }
+            ]
+          }
+        },
+        {
+          "type": "contact_channels",
+          "data": {
+            "eyebrow": "A distributed team",
+            "title": "Based in Faisalabad, working worldwide",
+            "text": "Our team works across multiple cities in Pakistan, with overlap hours for UK, US and Gulf clients. Most communication happens over WhatsApp, email and video calls."
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "title": "Let's build something your business runs on."
+          }
+        }
+      ],
+      "seo": {
+        "seo_title": "About",
+        "seo_description": "LogicsGrid is a software team based in Faisalabad, Pakistan, that designs, builds, deploys and supports digital products.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "agencies": {
+      "slug": "agencies",
+      "hero": {
+        "eyebrow": "For agencies",
+        "title": "Your technical delivery team, without the overhead.",
+        "text": "Sell websites, apps and platforms with confidence. We design, build and deploy under your brand while you keep the client relationship.",
+        "labels": [
+          "White label",
+          "NDA",
+          "Your brand",
+          "Capacity"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "audience_list",
+          "data": {
+            "eyebrow": "Who it's for",
+            "title": "Agencies that sell more than they can build",
+            "items": [
+              {
+                "title": "Digital marketing agencies",
+                "text": "You sell growth and need websites, funnels and apps built properly."
+              },
+              {
+                "title": "Design and UX studios",
+                "text": "You own the design and need developers who respect it pixel for pixel."
+              },
+              {
+                "title": "Industry-focused agencies",
+                "text": "You serve clinics, gyms or real estate and need repeatable builds."
+              },
+              {
+                "title": "Consultants and AI agencies",
+                "text": "You sell automation and AI and need engineers to deliver it."
+              }
+            ]
+          }
+        },
+        {
+          "type": "problem_fix",
+          "data": {
+            "eyebrow": "Sound familiar?",
+            "title": "Common agency problems, solved",
+            "alt": true,
+            "rows": [
+              {
+                "problem": "Saying no to projects you cannot build",
+                "fix": "A development team you can sell, without hiring"
+              },
+              {
+                "problem": "Unreliable freelancers and missed deadlines",
+                "fix": "A managed team with a project lead, weekly updates and written timelines"
+              },
+              {
+                "problem": "Hiring developers is slow and costly",
+                "fix": "Capacity per project or by the month, scaled to your pipeline"
+              },
+              {
+                "problem": "Quality issues that damage your reputation",
+                "fix": "Code reviews, testing and documentation on every delivery"
+              }
+            ]
+          }
+        },
+        {
+          "type": "numbered_rows",
+          "data": {
+            "eyebrow": "What we build for you",
+            "title": "A full development team you can sell",
+            "columns": 3,
+            "items": [
+              {
+                "title": "Websites and landing pages",
+                "text": "Business sites, funnels and WordPress or headless builds from your designs."
+              },
+              {
+                "title": "E-commerce",
+                "text": "Shopify, WooCommerce and custom stores with payments and integrations."
+              },
+              {
+                "title": "Web apps and portals",
+                "text": "Client portals, dashboards and internal tools."
+              },
+              {
+                "title": "Mobile apps",
+                "text": "React Native and Flutter apps, published under your client's accounts."
+              },
+              {
+                "title": "Booking and CRM systems",
+                "text": "Repeatable systems for clinics, gyms, salons and service businesses."
+              },
+              {
+                "title": "AI agents and automation",
+                "text": "AI agents, agentic workflows, RAG assistants, chatbots and workflow automation for your clients."
+              }
+            ]
+          }
+        },
+        {
+          "type": "steps",
+          "data": {
+            "eyebrow": "How white-label works",
+            "title": "From brief to handover, under your name",
+            "alt": true,
+            "items": [
+              {
+                "title": "Share the brief",
+                "text": "Send the opportunity, designs or client notes under NDA.",
+                "output": "A quick fit check"
+              },
+              {
+                "title": "Scope together",
+                "text": "We estimate effort and timeline for your proposal.",
+                "output": "Scope and timeline you can price"
+              },
+              {
+                "title": "Build under your brand",
+                "text": "Delivery in your tools, with updates you can forward to your client.",
+                "output": "Weekly updates and test links"
+              },
+              {
+                "title": "Deploy and hand over",
+                "text": "Release, documentation and handover to you or your client.",
+                "output": "Live project and documentation"
+              },
+              {
+                "title": "Support",
+                "text": "Fixes and improvements after launch, still under your name.",
+                "output": "Ongoing white-label support"
+              }
+            ]
+          }
+        },
+        {
+          "type": "checklist",
+          "data": {
+            "eyebrow": "Confidentiality",
+            "title": "Your client only ever sees you",
+            "text": "We sit behind your agency. Your client relationship, pricing and brand stay yours.",
+            "items": [
+              "Technical scoping for your proposals",
+              "Development under your brand",
+              "Mutual NDA and no client contact",
+              "Deployment to your or your client's servers",
+              "Handover documentation",
+              "Ongoing maintenance and support"
+            ],
+            "layers": [
+              "Your client",
+              "Your agency brand",
+              "LogicsGrid delivery"
+            ]
+          }
+        },
+        {
+          "type": "feature_tabs",
+          "data": {
+            "eyebrow": "Why agencies work with us",
+            "title": "Built for partnership, not one-off jobs",
+            "alt": true,
+            "labels": [
+              "NDA",
+              "Your brand",
+              "Your tools",
+              "Aftercare"
+            ],
+            "items": [
+              {
+                "icon": "eye-off",
+                "title": "Invisible by default",
+                "text": "Your brand on everything. No LogicsGrid logos, links or credits."
+              },
+              {
+                "icon": "shield-check",
+                "title": "Mutual NDA",
+                "text": "Signed before you share client details, and no portfolio use without permission."
+              },
+              {
+                "icon": "messages-square",
+                "title": "Your tools",
+                "text": "We work in your Slack, Jira, Trello or ClickUp, and follow your process."
+              },
+              {
+                "icon": "file-text",
+                "title": "Documentation",
+                "text": "Handover notes and access lists you can pass straight to your client."
+              },
+              {
+                "icon": "layers",
+                "title": "Code quality",
+                "text": "Code reviews and testing before anything reaches your client."
+              },
+              {
+                "icon": "wrench",
+                "title": "Aftercare",
+                "text": "Maintenance and updates under your brand, so you keep the recurring work."
+              }
+            ]
+          }
+        },
+        {
+          "type": "compare_table",
+          "data": {
+            "eyebrow": "Engagement models",
+            "title": "Choose the capacity that fits your pipeline",
+            "columns": [
+              "Per project",
+              "Monthly capacity",
+              "Overflow support"
+            ],
+            "rows": [
+              {
+                "label": "Best for",
+                "values": [
+                  "One-off client builds",
+                  "A steady pipeline",
+                  "Busy periods and deadlines"
+                ]
+              },
+              {
+                "label": "Scope",
+                "values": [
+                  "Fixed per project",
+                  "Flexible, planned weekly",
+                  "Specific tasks"
+                ]
+              },
+              {
+                "label": "Project lead",
+                "values": [
+                  "yes",
+                  "yes",
+                  "On request"
+                ]
+              },
+              {
+                "label": "Proposal support",
+                "values": [
+                  "yes",
+                  "yes",
+                  "no"
+                ]
+              },
+              {
+                "label": "Works in your tools",
+                "values": [
+                  "yes",
+                  "yes",
+                  "yes"
+                ]
+              },
+              {
+                "label": "Ongoing maintenance",
+                "values": [
+                  "Optional",
+                  "yes",
+                  "no"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "title": "Questions agencies ask",
+            "items": [
+              {
+                "q": "Will our clients know you are involved?",
+                "a": "No. We work under your brand with a mutual NDA and no direct client contact unless you want it."
+              },
+              {
+                "q": "Can you help with proposals?",
+                "a": "Yes. We provide technical scoping and timelines you can use in your proposals."
+              },
+              {
+                "q": "Do you offer a monthly team?",
+                "a": "Yes. You can work per project or reserve monthly development capacity."
+              },
+              {
+                "q": "Can you join client calls as part of our team?",
+                "a": "Yes, if you want, using your agency's name and email addresses."
+              },
+              {
+                "q": "Who owns the code?",
+                "a": "You or your client, as agreed in your contract. We hand over everything at the end."
+              },
+              {
+                "q": "Can you work from our designs?",
+                "a": "Yes. We build from Figma, Adobe XD or any design files you provide."
+              },
+              {
+                "q": "How do we start?",
+                "a": "Send a brief or an upcoming opportunity. We sign an NDA, scope it, and you get a timeline you can price into your proposal."
+              },
+              {
+                "q": "Can you work in our timezone?",
+                "a": "We keep overlap hours for UK, US and Gulf clients. Mon–Sat, 10 am – 7 pm PKT."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "title": "Add technical capacity without adding headcount.",
+            "text": "Send your next brief to hello@logicsgrid.org or WhatsApp us. We reply within one business day.",
+            "button_label": "Become a partner"
+          }
+        }
+      ],
+      "seo": {
+        "seo_title": "White-label development for agencies",
+        "seo_description": "A white-label design and development team for agencies: your brand, your client relationship, our delivery.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "startups": {
+      "slug": "startups",
+      "hero": {
+        "eyebrow": "For startups and founders",
+        "title": "From idea to launched product, without hiring a tech team.",
+        "text": "We help founders, especially non-technical ones, scope, design, build and launch their first product, then keep improving it with real users.",
+        "labels": [
+          "Idea",
+          "MVP",
+          "Launch",
+          "Iterate"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "stages",
+          "data": {
+            "eyebrow": "Where are you now?",
+            "title": "We meet you at your stage",
+            "items": [
+              {
+                "title": "Idea",
+                "text": "You know the problem and the customer, but not what to build first.",
+                "help": "Discovery sprint to define the smallest version worth launching."
+              },
+              {
+                "title": "First version",
+                "text": "You have a scope or designs and need a team to build and launch.",
+                "help": "Design, build and deployment in weekly sprints."
+              },
+              {
+                "title": "Live product",
+                "text": "You have users and need to fix, improve and scale what exists.",
+                "help": "Code review, care plan or a monthly dedicated team."
+              }
+            ]
+          }
+        },
+        {
+          "type": "problem_fix",
+          "data": {
+            "eyebrow": "Founder worries",
+            "title": "The usual fears, handled up front",
+            "alt": true,
+            "rows": [
+              {
+                "problem": "You are not technical and do not know who to trust",
+                "fix": "Plain-language decisions, written scopes and weekly updates you can follow"
+              },
+              {
+                "problem": "Quotes vary wildly and nobody explains why",
+                "fix": "A discovery sprint that turns your idea into a scope you can compare"
+              },
+              {
+                "problem": "Freelancers disappear halfway through",
+                "fix": "One accountable team with a project lead from start to support"
+              },
+              {
+                "problem": "You are worried about losing control of your product",
+                "fix": "Your accounts, your code, your designs, handed over in full"
+              }
+            ]
+          }
+        },
+        {
+          "type": "steps",
+          "data": {
+            "eyebrow": "The MVP process",
+            "title": "Five steps from idea to live product",
+            "text": "Each step ends with something concrete you can see, test and keep.",
+            "items": [
+              {
+                "title": "Discovery sprint",
+                "text": "Workshops to understand your users, the core problem and what success looks like. We rank features and agree the smallest version worth launching.",
+                "output": "Written scope, user flows, timeline and estimate"
+              },
+              {
+                "title": "Design",
+                "text": "Wireframes and UI designs for the key screens, turned into a clickable prototype you can show to users or investors.",
+                "output": "Approved designs and prototype"
+              },
+              {
+                "title": "Build",
+                "text": "Development in short sprints with a weekly update and a test link, so you always see real progress.",
+                "output": "Working software every week"
+              },
+              {
+                "title": "Launch",
+                "text": "Production hosting, domain, SSL, payments, analytics and app store releases set up and handed over.",
+                "output": "A live product in your accounts"
+              },
+              {
+                "title": "Iterate",
+                "text": "We watch how real users behave, gather feedback and plan the next release with you.",
+                "output": "A roadmap based on real usage"
+              }
+            ]
+          }
+        },
+        {
+          "type": "checklist",
+          "data": {
+            "eyebrow": "What's in a typical MVP",
+            "title": "Small, complete and ready for real users",
+            "text": "An MVP is not a half-built product. It is the smallest complete version that proves people want it.",
+            "alt": true,
+            "two_columns": true,
+            "items": [
+              "User accounts and onboarding",
+              "The one core workflow that delivers value",
+              "Admin panel to manage users and data",
+              "Payments or subscriptions if you charge",
+              "Email and in-app notifications",
+              "Basic analytics to learn from users",
+              "Hosting, domain and SSL",
+              "Documentation and full handover"
+            ],
+            "layers": [
+              "Idea",
+              "Discovery",
+              "Design",
+              "Build",
+              "Launch"
+            ]
+          }
+        },
+        {
+          "type": "numbered_rows",
+          "data": {
+            "eyebrow": "Product features",
+            "title": "Built in from the first release",
+            "columns": 3,
+            "items": [
+              {
+                "title": "Accounts and onboarding",
+                "text": "Sign-up, login, social sign-in, team invites and a first-run experience that gets users to value quickly."
+              },
+              {
+                "title": "Subscriptions and billing",
+                "text": "Plans, trials, invoices and payment providers such as Stripe, set up so you can change pricing later."
+              },
+              {
+                "title": "Roles and permissions",
+                "text": "Owners, admins and members with the right access, ready for multi-tenant SaaS."
+              },
+              {
+                "title": "Admin panel",
+                "text": "A back office for your team to manage users, content, plans and support requests."
+              },
+              {
+                "title": "Analytics and events",
+                "text": "Product events and dashboards so you can see what users actually do."
+              },
+              {
+                "title": "Integrations and APIs",
+                "text": "Email, notifications, third-party tools and a documented API if your customers need one."
+              }
+            ]
+          }
+        },
+        {
+          "type": "statement_pair",
+          "data": {
+            "alt": true,
+            "items": [
+              {
+                "eyebrow": "Ownership",
+                "title": "Your product, your accounts.",
+                "text": "Code repositories, hosting, app store accounts, domains and designs are set up in your name, or transferred to you at handover. You are never locked in."
+              },
+              {
+                "eyebrow": "After launch",
+                "title": "We stay for what comes next.",
+                "text": "Keep improving with a care plan or a monthly dedicated team, scaled up or down as your product grows.",
+                "link_label": "Explore care plans →",
+                "link_url": "/care-plans"
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Services for founders",
+            "title": "Everything your product needs",
+            "style": "list",
+            "services": [
+              "saas-mvp-development",
+              "mobile-app-development",
+              "ai-integration-automation"
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "title": "Questions founders ask",
+            "items": [
+              {
+                "q": "How long does an MVP take?",
+                "a": "Most MVPs take 6–12 weeks. You receive a written timeline after the discovery sprint."
+              },
+              {
+                "q": "Will I own the code?",
+                "a": "Yes. You own the code, designs and accounts, with a full handover."
+              },
+              {
+                "q": "Can you help decide what to build first?",
+                "a": "Yes. Discovery is where we prioritise the smallest version that proves value."
+              },
+              {
+                "q": "I am not technical. Is that a problem?",
+                "a": "No. We explain decisions in plain language and recommend the technology, so you can focus on customers."
+              },
+              {
+                "q": "What happens after launch?",
+                "a": "You can keep us on a care plan or a monthly team to fix issues, ship improvements and scale the product."
+              },
+              {
+                "q": "Can you take over an existing MVP?",
+                "a": "Yes. We start with a code and infrastructure review, then recommend whether to improve or rebuild parts of it."
+              },
+              {
+                "q": "Can you sign an NDA before I share my idea?",
+                "a": "Yes. We are happy to sign an NDA before the first detailed conversation."
+              },
+              {
+                "q": "Can I start with just the discovery sprint?",
+                "a": "Yes. You can take the scope and designs and decide on the build afterwards."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "title": "Have an idea you want to launch?"
+          }
+        }
+      ],
+      "seo": {
+        "seo_title": "For startups and founders",
+        "seo_description": "MVP and SaaS development for non-technical founders: discovery sprint, design, build, launch and iteration, by LogicsGrid.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "care-plans": {
+      "slug": "care-plans",
+      "hero": {
+        "eyebrow": "Care plans",
+        "title": "Launch is the start. We keep it running.",
+        "text": "Every project can move onto a care plan for monitoring, security, backups, fixes and ongoing improvements, handled by the team that knows your product.",
+        "labels": [
+          "Monitor",
+          "Secure",
+          "Backup",
+          "Improve"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "feature_tabs",
+          "data": {
+            "eyebrow": "What's covered",
+            "title": "The work that keeps software healthy",
+            "text": "Software needs regular care. Without it, small issues turn into outages, security risks and expensive rebuilds.",
+            "labels": [
+              "Monitor",
+              "Secure",
+              "Backup",
+              "Improve"
+            ],
+            "items": [
+              {
+                "icon": "activity",
+                "title": "Monitoring",
+                "text": "Uptime and error alerts so issues are caught early."
+              },
+              {
+                "icon": "shield-check",
+                "title": "Security updates",
+                "text": "Framework, plugin and dependency updates applied safely."
+              },
+              {
+                "icon": "archive",
+                "title": "Backups",
+                "text": "Regular backups of code, database and files."
+              },
+              {
+                "icon": "bug",
+                "title": "Bug fixes",
+                "text": "Problems investigated and fixed by people who know the code."
+              },
+              {
+                "icon": "gauge",
+                "title": "Performance",
+                "text": "Speed and resource checks as traffic and data grow."
+              },
+              {
+                "icon": "refresh-cw",
+                "title": "Improvements",
+                "text": "Time for new features, integrations and design tweaks."
+              }
+            ]
+          }
+        },
+        {
+          "type": "care_plans",
+          "data": {
+            "eyebrow": "Plans",
+            "title": "Three levels of care",
+            "text": "Every plan is quoted for your product. Tell us what you run and we will recommend the right level.",
+            "alt": true
+          }
+        },
+        {
+          "type": "steps",
+          "data": {
+            "eyebrow": "How requests work",
+            "title": "Simple, predictable support",
+            "items": [
+              {
+                "title": "Report",
+                "text": "Send a request on WhatsApp, email or your shared board.",
+                "output": "A logged request"
+              },
+              {
+                "title": "Prioritise",
+                "text": "We confirm urgency and agree what happens first.",
+                "output": "A clear next action"
+              },
+              {
+                "title": "Fix or build",
+                "text": "Changes tested on a staging copy before going live.",
+                "output": "A safe release"
+              },
+              {
+                "title": "Report back",
+                "text": "You get a note of what changed and anything to watch.",
+                "output": "Change log"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "title": "Questions about care plans",
+            "items": [
+              {
+                "q": "Do you support products you did not build?",
+                "a": "Yes. We start with a short review of the code and hosting, then confirm which plan fits."
+              },
+              {
+                "q": "How much does a care plan cost?",
+                "a": "It depends on the size of the product and how much improvement time you need. We send a written quote after a short review."
+              },
+              {
+                "q": "Can we change plans later?",
+                "a": "Yes. You can move between plans as your needs change."
+              },
+              {
+                "q": "What if something urgent breaks?",
+                "a": "Urgent issues on live products are prioritised ahead of improvement work."
+              },
+              {
+                "q": "Is there a minimum contract?",
+                "a": "Terms are agreed with each client and written into the proposal before anything starts."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "title": "Need someone to look after your product?",
+            "text": "Tell us what you run today. We will review it and recommend a plan.",
+            "button_label": "Ask about a care plan"
+          }
+        }
+      ],
+      "seo": {
+        "seo_title": "Care plans",
+        "seo_description": "Maintenance and support plans for websites, apps and systems: monitoring, security updates, backups, fixes and ongoing improvements.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "technologies": {
+      "slug": "technologies",
+      "hero": {
+        "eyebrow": "Technologies",
+        "title": "Any stack. The right one for your product.",
+        "text": "We work across any technology stack, including yours. For new builds we recommend proven tools that are fast to build with, easy to maintain and simple to hand over.",
+        "labels": [
+          "Laravel",
+          "React",
+          "Flutter",
+          "AWS"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "marquee",
+          "data": {
+            "items": []
+          }
+        },
+        {
+          "type": "audience_list",
+          "data": {
+            "eyebrow": "Specialisms",
+            "title": "Where we go deepest",
+            "text": "We are not limited to these. If your product already runs on another stack, we work with it.",
+            "alt": true,
+            "items": [
+              {
+                "title": "Laravel and PHP",
+                "text": "Our main back-end framework for SaaS products, portals and booking systems."
+              },
+              {
+                "title": "React and Next.js",
+                "text": "Fast, modern front ends, dashboards and marketing sites."
+              },
+              {
+                "title": "React Native and Flutter",
+                "text": "Cross-platform mobile apps for iOS and Android from one codebase."
+              },
+              {
+                "title": "AI agents and RAG",
+                "text": "AI agents, agentic workflows, LLM features and RAG assistants with LangChain, LangGraph and vector search."
+              }
+            ]
+          }
+        },
+        {
+          "type": "tech_groups",
+          "data": {
+            "eyebrow": "Full stack",
+            "title": "Core tools and what we also use",
+            "text": "Core tools are what we use most. We use the rest, and any other stack, when a project calls for it."
+          }
+        },
+        {
+          "type": "checklist",
+          "data": {
+            "eyebrow": "How we choose",
+            "title": "Technology decisions you can live with",
+            "alt": true,
+            "principles": [
+              {
+                "title": "Proven over trendy",
+                "text": "We pick mature tools with large communities, so your product is easy to hire for and maintain."
+              },
+              {
+                "title": "Fit for the job",
+                "text": "A brochure site, a SaaS product and an AI pipeline need different tools. We explain our choice."
+              },
+              {
+                "title": "Built to hand over",
+                "text": "Standard frameworks, clean structure and documentation so any good team can continue the work."
+              }
+            ],
+            "items": [],
+            "layers": [
+              "Database",
+              "Back end",
+              "API",
+              "Web and mobile"
+            ]
+          }
+        },
+        {
+          "type": "steps",
+          "data": {
+            "eyebrow": "Deployment",
+            "title": "Six things we set up on every project",
+            "text": "Deployment is part of every service, not an extra.",
+            "items": [
+              {
+                "title": "Servers and hosting",
+                "text": "Cloud or shared hosting set up for your traffic and budget."
+              },
+              {
+                "title": "Domains and SSL",
+                "text": "Domain, DNS, email records and HTTPS configured correctly."
+              },
+              {
+                "title": "CI/CD",
+                "text": "Automated build and release so updates go out safely."
+              },
+              {
+                "title": "App store releases",
+                "text": "Apple and Google submissions, listings and review handling."
+              },
+              {
+                "title": "Monitoring",
+                "text": "Uptime, error and performance alerts after launch."
+              },
+              {
+                "title": "Handover",
+                "text": "Accounts, access, code and documentation handed to you."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "title": "Questions about technology",
+            "items": [
+              {
+                "q": "Can you work with our existing stack?",
+                "a": "Yes. We work on any stack, so we can extend what you already have instead of forcing a rewrite."
+              },
+              {
+                "q": "Do you build AI agents and RAG systems?",
+                "a": "Yes. We build AI agents, agentic workflows, LLM features and RAG knowledge assistants, connected to your data and tools."
+              },
+              {
+                "q": "Why do you prefer cross-platform mobile?",
+                "a": "One codebase for iOS and Android reduces cost and keeps both apps in sync, with near-native performance."
+              },
+              {
+                "q": "Which cloud do you use?",
+                "a": "It depends on your budget and needs. We deploy to AWS, DigitalOcean, Vercel and managed hosting."
+              },
+              {
+                "q": "Can you build with WordPress or Shopify?",
+                "a": "Yes, when they are the right fit. We also build custom when your needs outgrow them."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "title": "Not sure which technology fits?",
+            "text": "Tell us what you want to build. We will recommend a stack and explain why."
+          }
+        }
+      ],
+      "seo": {
+        "seo_title": "Technologies",
+        "seo_description": "The technology stack LogicsGrid uses to build and deploy web apps, mobile apps, SaaS products and AI features.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "free-audit": {
+      "slug": "free-audit",
+      "hero": {
+        "eyebrow": "Free audit",
+        "title": "Find out what your website and systems are costing you.",
+        "text": "We review your website, booking process and business tools, then send practical recommendations. Free, with no obligation.",
+        "labels": [
+          "Website",
+          "Bookings",
+          "Tools",
+          "Security"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "area_checklists",
+          "data": {
+            "eyebrow": "What we check",
+            "title": "Four areas, one clear report",
+            "items": [
+              {
+                "title": "Website",
+                "points": [
+                  "Mobile experience",
+                  "Page speed",
+                  "Clear calls to action",
+                  "Contact and WhatsApp paths",
+                  "On-page SEO basics"
+                ]
+              },
+              {
+                "title": "Bookings and enquiries",
+                "points": [
+                  "How customers book or enquire",
+                  "Missed calls and messages",
+                  "Reminders and no-shows",
+                  "Online payments and deposits"
+                ]
+              },
+              {
+                "title": "Operations and tools",
+                "points": [
+                  "Spreadsheets and manual steps",
+                  "Customer records",
+                  "Disconnected tools",
+                  "Tasks that could be automated"
+                ]
+              },
+              {
+                "title": "Security and hosting",
+                "points": [
+                  "SSL and domain setup",
+                  "Outdated software",
+                  "Backups",
+                  "Email deliverability records"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "contact_form",
+          "data": {
+            "eyebrow": "Request your audit",
+            "title": "Tell us where to look",
+            "alt": true,
+            "variant": "audit",
+            "aside_title": "Who it's for",
+            "aside_items": [
+              "Clinics, dentists and physiotherapists",
+              "Gyms, salons, spas and studios",
+              "Academies, schools and tutors",
+              "Restaurants and hospitality",
+              "Real estate and rentals",
+              "Retail and home services",
+              "Businesses with no website yet",
+              "Founders with an existing product"
+            ]
+          }
+        },
+        {
+          "type": "steps",
+          "data": {
+            "eyebrow": "How it works",
+            "title": "Simple, quick and useful",
+            "items": [
+              {
+                "title": "Request",
+                "text": "Fill in the form with your website or a description of how you work today.",
+                "output": "Request received"
+              },
+              {
+                "title": "Review",
+                "text": "We look at your website, booking flow and tools from a customer's point of view.",
+                "output": "Notes on what is working and what is not"
+              },
+              {
+                "title": "Recommendations",
+                "text": "You receive a short list of practical fixes, ordered by impact.",
+                "output": "Written recommendations"
+              },
+              {
+                "title": "Optional call",
+                "text": "Walk through the findings with us. No obligation to work together.",
+                "output": "Answers to your questions"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "title": "Questions about the audit",
+            "items": [
+              {
+                "q": "Is the audit really free?",
+                "a": "Yes. There is no cost and no obligation to work with us afterwards."
+              },
+              {
+                "q": "What if I don't have a website?",
+                "a": "That's fine. We review how customers find you, book and pay today, and suggest where to start."
+              },
+              {
+                "q": "Do I need to give you any logins?",
+                "a": "No. The audit uses what a customer can see. If you want a deeper review later, we will ask first."
+              },
+              {
+                "q": "Can you fix the issues you find?",
+                "a": "Yes, if you want us to. You can also hand the recommendations to your own team."
+              }
+            ]
+          }
+        }
+      ],
+      "seo": {
+        "seo_title": "Free website and systems audit",
+        "seo_description": "Get a free review of your website, booking process or business tools, with practical recommendations from LogicsGrid.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "work": {
+      "slug": "work",
+      "hero": {
+        "eyebrow": "Work",
+        "title": "Products built for real customers.",
+        "text": "A selection of platforms we have designed, built and deployed. More case studies are being prepared with client permission.",
+        "labels": [
+          "Web",
+          "Mobile",
+          "Marketplace",
+          "Deploy"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "work",
+          "data": {
+            "filters": true
+          }
+        },
+        {
+          "type": "numbered_rows",
+          "data": {
+            "eyebrow": "Across the work",
+            "title": "The same priorities on every project",
+            "text": "Different industries and products, with the same focus on usefulness, reliability and long-term operation.",
+            "alt": true,
+            "columns": 3,
+            "items": [
+              {
+                "title": "Customer clarity",
+                "text": "Complex actions made simple for the people who use the product every day."
+              },
+              {
+                "title": "Operational control",
+                "text": "Admin panels and dashboards that give the business visibility behind the experience."
+              },
+              {
+                "title": "Room to grow",
+                "text": "Foundations that support new features without constant rebuilding."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "alt": true
+          }
+        },
+        {
+          "type": "steps",
+          "data": {
+            "eyebrow": "Behind every case study",
+            "title": "How these projects were delivered",
+            "items": [
+              {
+                "title": "Brief and discovery",
+                "text": "We start from the business problem, not a feature list.",
+                "output": "Written scope"
+              },
+              {
+                "title": "Design and build",
+                "text": "Designs approved first, then development in weekly sprints.",
+                "output": "Working software every week"
+              },
+              {
+                "title": "Launch and support",
+                "text": "Deployment, handover and a care plan to keep improving.",
+                "output": "A live, supported product"
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Services",
+            "title": "What we can build for you",
+            "alt": true,
+            "style": "list"
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "title": "Want to be our next case study?"
+          }
+        }
+      ],
+      "seo": {
+        "seo_title": "Work",
+        "seo_description": "Case studies of web, mobile and marketplace products designed, built and deployed by LogicsGrid.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "contact": {
+      "slug": "contact",
+      "hero": {
+        "eyebrow": "Contact",
+        "title": "What are you ready to build or improve?",
+        "text": "Share the outcome you want and where you are today. We reply within 24 hours on business days, and the first consultation is free.",
+        "labels": [
+          "Free call",
+          "48h plan",
+          "NDA",
+          "WhatsApp"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "contact_channels",
+          "data": []
+        },
+        {
+          "type": "contact_form",
+          "data": {
+            "eyebrow": "Project enquiry",
+            "title": "Tell us about your project",
+            "alt": true,
+            "variant": "contact",
+            "aside_title": "Helpful to include",
+            "aside_items": [
+              "What you want to build or fix",
+              "Who will use it",
+              "Any existing website, app or tools",
+              "Examples you like",
+              "Your ideal timeline",
+              "Your budget range"
+            ]
+          }
+        },
+        {
+          "type": "steps",
+          "data": {
+            "eyebrow": "What happens next",
+            "title": "A clear first conversation, not a sales maze",
+            "items": [
+              {
+                "title": "We read your message",
+                "text": "We review your details and note the questions that need answers.",
+                "output": "A reply within 24 hours on business days"
+              },
+              {
+                "title": "Free 30-minute call",
+                "text": "We talk through the goal, users, constraints, timing and budget range.",
+                "output": "Shared understanding of the project"
+              },
+              {
+                "title": "Plan and estimate",
+                "text": "You receive a written plan with scope, timeline and estimate.",
+                "output": "Proposal within 48 hours of the call"
+              },
+              {
+                "title": "Kick-off",
+                "text": "Once you approve, we schedule discovery and introduce your team.",
+                "output": "A start date and first milestones"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "title": "Before you get in touch",
+            "items": [
+              {
+                "q": "Is the consultation really free?",
+                "a": "Yes. The first 30-minute call and the written plan are free, with no obligation."
+              },
+              {
+                "q": "Will you sign an NDA?",
+                "a": "Yes. We are happy to sign an NDA before you share details."
+              },
+              {
+                "q": "I only have an idea. Is that enough?",
+                "a": "Yes. Many projects start with a rough idea. We help you shape it into a clear first version."
+              },
+              {
+                "q": "Do you publish prices?",
+                "a": "No. Every project is different, so we scope it first and send a written estimate."
+              },
+              {
+                "q": "Which time zones do you cover?",
+                "a": "Mon–Sat, 10 am – 7 pm PKT, with overlap hours for UK, US and Gulf clients."
+              }
+            ]
+          }
+        }
+      ],
+      "seo": {
+        "seo_title": "Contact",
+        "seo_description": "Talk to LogicsGrid about your SaaS, web, mobile, booking or AI project. Email, call or WhatsApp our Faisalabad team.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "insights": {
+      "slug": "insights",
+      "hero": {
+        "eyebrow": "Insights",
+        "title": "Ideas for building and operating better.",
+        "text": "Practical perspectives on the decisions behind useful products and durable digital businesses.",
+        "labels": [
+          "Product",
+          "AI",
+          "Operations"
+        ],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "cta",
+          "data": []
+        }
+      ],
+      "seo": {
+        "seo_title": "Insights",
+        "seo_description": "Practical thinking about software products, AI automation and digital operations from LogicsGrid.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "privacy": {
+      "slug": "privacy",
+      "hero": {
+        "eyebrow": "Legal",
+        "title": "Privacy policy",
+        "text": "How LogicsGrid, Faisalabad, Punjab, Pakistan, handles your information.",
+        "labels": [],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "rich_text",
+          "data": {
+            "content": "<h2>Information we collect</h2><p>We collect the contact details and project information you submit through our website, email, phone or WhatsApp.</p><h2>How we use information</h2><p>We use it to respond to enquiries, prepare proposals, deliver services, improve our website, and meet legal obligations.</p><h2>Data retention and sharing</h2><p>We keep information only as long as needed and never sell personal data. Trusted service providers, such as hosting and email, may process it on our behalf.</p><h2>Client project data</h2><p>Data inside client projects is handled under the confidentiality terms of each project agreement, including NDAs where agreed.</p><h2>Your choices</h2><p>Email hello@logicsgrid.org or call +92 329 0112060 to request access, correction, or deletion of your personal information.</p>"
+          }
+        },
+        {
+          "type": "cta",
+          "data": []
+        }
+      ],
+      "seo": {
+        "seo_title": "Privacy policy",
+        "seo_description": "How LogicsGrid collects, uses and protects the information you share through our website.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    },
+    "terms": {
+      "slug": "terms",
+      "hero": {
+        "eyebrow": "Legal",
+        "title": "Terms of use",
+        "text": "The terms that apply when you use this website.",
+        "labels": [],
+        "image": null
+      },
+      "sections": [
+        {
+          "type": "rich_text",
+          "data": {
+            "content": "<h2>Website use</h2><p>You may use this website for lawful informational and business purposes.</p><h2>Intellectual property</h2><p>Website content, branding, and original materials remain the property of LogicsGrid or their respective owners.</p><h2>No warranty</h2><p>Website information is provided as available and does not form a project agreement or professional guarantee.</p><h2>Project agreements</h2><p>Paid work is governed by a separate written agreement defining scope, fees, responsibilities, and ownership of code and designs.</p><h2>Contact</h2><p>Questions about these terms can be sent to hello@logicsgrid.org.</p>"
+          }
+        },
+        {
+          "type": "cta",
+          "data": []
+        }
+      ],
+      "seo": {
+        "seo_title": "Terms of use",
+        "seo_description": "The terms that apply when you use the LogicsGrid website.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      },
+      "updatedAt": "2026-10-06T15:04:12.000000Z"
+    }
+  },
+  "services": [
+    {
+      "slug": "saas-mvp-development",
+      "title": "SaaS & MVP development",
+      "short": "Turn an idea into a launch-ready product, then keep improving it with real users.",
+      "intro": "We scope, design, build and deploy your first version, then iterate with real usage so the product grows in the right direction.",
+      "icon": "rocket",
+      "tags": [
+        "MVP",
+        "SaaS",
+        "Billing",
+        "Deploy"
+      ],
+      "audience": [
+        {
+          "title": "Non-technical founders",
+          "text": "You know the problem and the customer. We bring the product thinking and the engineering team."
+        },
+        {
+          "title": "Businesses productising a tool",
+          "text": "You built something internally that others would pay for and want to turn it into SaaS."
+        },
+        {
+          "title": "Teams rebuilding a product",
+          "text": "Your first version proved demand but the code cannot carry the next stage."
+        },
+        {
+          "title": "Agencies with a product client",
+          "text": "Your client needs a real product, not a website, and you need a reliable build partner."
+        }
+      ],
+      "problems": [
+        {
+          "problem": "Unclear scope and a feature list that keeps growing",
+          "fix": "A discovery sprint that ranks features and fixes the smallest version worth launching"
+        },
+        {
+          "problem": "A slow, expensive path to the first paying users",
+          "fix": "A fixed-scope first release, with weekly progress you can see and test"
+        },
+        {
+          "problem": "Fragile code that breaks as soon as users arrive",
+          "fix": "A clean architecture, code reviews and automated deployment from day one"
+        },
+        {
+          "problem": "No plan for billing, user roles or analytics",
+          "fix": "Subscriptions, roles, permissions and product analytics built into the first release"
+        }
+      ],
+      "features": [
+        {
+          "title": "Accounts and onboarding",
+          "text": "Sign-up, login, social sign-in, team invites and a first-run experience that gets users to value quickly."
+        },
+        {
+          "title": "Subscriptions and billing",
+          "text": "Plans, trials, invoices and payment providers such as Stripe, set up so you can change pricing later."
+        },
+        {
+          "title": "Roles and permissions",
+          "text": "Owners, admins and members with the right access, ready for multi-tenant SaaS."
+        },
+        {
+          "title": "Admin panel",
+          "text": "A back office for your team to manage users, content, plans and support requests."
+        },
+        {
+          "title": "Analytics and events",
+          "text": "Product events and dashboards so you can see what users actually do."
+        },
+        {
+          "title": "Integrations and APIs",
+          "text": "Email, notifications, third-party tools and a documented API if your customers need one."
+        }
+      ],
+      "deliverables": [
+        "Discovery workshop and written scope",
+        "UX flows and UI design",
+        "Web app with admin panel",
+        "Subscriptions, billing and user roles",
+        "Cloud deployment with CI/CD",
+        "Analytics, monitoring and post-launch iterations"
+      ],
+      "steps": [
+        {
+          "title": "Discovery sprint",
+          "text": "We map users, the core workflow and the smallest version worth launching.",
+          "output": "Written scope, feature priorities and timeline"
+        },
+        {
+          "title": "Product design",
+          "text": "User flows, wireframes and a clickable UI you can test before code is written.",
+          "output": "Approved designs and a clickable prototype"
+        },
+        {
+          "title": "Build in sprints",
+          "text": "Features shipped to a test environment in short cycles with weekly updates.",
+          "output": "Working software you can review every week"
+        },
+        {
+          "title": "Launch",
+          "text": "Production setup, domain, SSL, payments, monitoring and store or web release.",
+          "output": "A live product and a launch checklist"
+        },
+        {
+          "title": "Iterate",
+          "text": "We read real usage and feedback, then plan and build the next improvements.",
+          "output": "A prioritised roadmap for the next release"
+        }
+      ],
+      "stack": [
+        "Laravel",
+        "Node.js",
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "MySQL",
+        "Stripe",
+        "AWS",
+        "Docker"
+      ],
+      "faqs": [
+        {
+          "q": "How long does an MVP take?",
+          "a": "Most MVPs take 6–12 weeks. You receive a written timeline after the discovery sprint."
+        },
+        {
+          "q": "Will I own the code?",
+          "a": "Yes. You own the code, designs and accounts, with a full handover."
+        },
+        {
+          "q": "Can you help decide what to build first?",
+          "a": "Yes. Discovery is where we prioritise the smallest version that proves value."
+        },
+        {
+          "q": "I am not technical. Is that a problem?",
+          "a": "No. We explain decisions in plain language and recommend the technology, so you can focus on customers."
+        },
+        {
+          "q": "What happens after launch?",
+          "a": "You can keep us on a care plan or a monthly team to fix issues, ship improvements and scale the product."
+        },
+        {
+          "q": "Can you take over an existing MVP?",
+          "a": "Yes. We start with a code and infrastructure review, then recommend whether to improve or rebuild parts of it."
+        }
+      ],
+      "image": null,
+      "related": [
+        "web-applications-websites",
+        "ai-integration-automation",
+        "mobile-app-development"
+      ],
+      "seo": {
+        "seo_title": "SaaS & MVP development",
+        "seo_description": "Turn an idea into a launch-ready product, then keep improving it with real users.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    {
+      "slug": "web-applications-websites",
+      "title": "Web applications & websites",
+      "short": "Custom platforms, client portals, business websites and online stores built around how you work.",
+      "intro": "From a fast business website to a full client portal, we design and build web products that fit your workflow instead of forcing you into someone else's.",
+      "icon": "layout-template",
+      "tags": [
+        "Websites",
+        "Portals",
+        "E-commerce",
+        "CMS"
+      ],
+      "audience": [
+        {
+          "title": "Service businesses",
+          "text": "Clinics, academies, gyms, salons and firms that need a website which actually brings enquiries."
+        },
+        {
+          "title": "Companies on spreadsheets",
+          "text": "Teams running operations from sheets and inboxes that need a proper portal."
+        },
+        {
+          "title": "Retail brands",
+          "text": "Shops that want to sell online with payments, delivery and stock in one place."
+        },
+        {
+          "title": "Teams with a slow platform",
+          "text": "Businesses whose current site or system is outdated, slow or hard to update."
+        }
+      ],
+      "problems": [
+        {
+          "problem": "A website that looks dated and brings few enquiries",
+          "fix": "A modern, fast design with clear calls to action, WhatsApp and contact forms"
+        },
+        {
+          "problem": "Manual work spread across spreadsheets and chats",
+          "fix": "A web portal with the forms, records and dashboards your team needs"
+        },
+        {
+          "problem": "Disconnected tools and payment systems",
+          "fix": "Integrations that connect payments, email, CRM and accounting"
+        },
+        {
+          "problem": "Content only a developer can update",
+          "fix": "A CMS or admin panel so your team edits pages, products and posts"
+        }
+      ],
+      "features": [
+        {
+          "title": "Business websites",
+          "text": "Fast, mobile-first sites with service pages, lead capture and on-page SEO basics."
+        },
+        {
+          "title": "E-commerce stores",
+          "text": "Catalogue, cart, checkout, payments, delivery options and order management."
+        },
+        {
+          "title": "Client portals",
+          "text": "Secure areas where customers log in to see orders, documents, bookings or progress."
+        },
+        {
+          "title": "Dashboards and admin panels",
+          "text": "Internal tools that replace spreadsheets with clear, permissioned workflows."
+        },
+        {
+          "title": "Content management",
+          "text": "WordPress, headless CMS or a custom admin so non-developers can publish."
+        },
+        {
+          "title": "Integrations",
+          "text": "Payment gateways, CRMs, email marketing, maps, analytics and third-party APIs."
+        }
+      ],
+      "deliverables": [
+        "Information architecture and UI design",
+        "Business websites and landing pages",
+        "E-commerce stores with payments",
+        "Portals, dashboards and admin panels",
+        "API integrations",
+        "Hosting, domain, SSL and deployment"
+      ],
+      "steps": [
+        {
+          "title": "Discovery",
+          "text": "We review your goals, current site or tools, competitors and what visitors need to do.",
+          "output": "Sitemap or feature list and a written estimate"
+        },
+        {
+          "title": "Design",
+          "text": "Page layouts and UI designs for desktop and mobile, reviewed with you.",
+          "output": "Approved designs for key pages and screens"
+        },
+        {
+          "title": "Build",
+          "text": "Development with a CMS or admin, integrations and content entry.",
+          "output": "A test link you can review as it grows"
+        },
+        {
+          "title": "Launch",
+          "text": "Hosting, domain, SSL, redirects, analytics and speed checks before go-live.",
+          "output": "A live site with access handed over to you"
+        },
+        {
+          "title": "Support",
+          "text": "Updates, backups, fixes and improvements on a care plan.",
+          "output": "A site that stays secure and current"
+        }
+      ],
+      "stack": [
+        "React",
+        "Next.js",
+        "Laravel",
+        "Node.js",
+        "WordPress",
+        "Shopify",
+        "Tailwind CSS",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "faqs": [
+        {
+          "q": "Can you redesign our existing website?",
+          "a": "Yes. We can redesign and rebuild it while keeping your content, SEO value and integrations."
+        },
+        {
+          "q": "Can we edit the content ourselves?",
+          "a": "Yes. We set up a CMS or admin panel so your team can update content without a developer."
+        },
+        {
+          "q": "Do you handle hosting and domain?",
+          "a": "Yes. We set up hosting, domain, SSL and deployment, and can manage them for you."
+        },
+        {
+          "q": "WordPress, Shopify or custom?",
+          "a": "It depends on what you need to manage. We recommend the simplest option that fits, and explain why."
+        },
+        {
+          "q": "Will the site work well on phones?",
+          "a": "Yes. Every page is designed and tested for mobile first."
+        },
+        {
+          "q": "Can you connect our payment gateway?",
+          "a": "Yes. We integrate international and local payment providers, depending on where you sell."
+        }
+      ],
+      "image": null,
+      "related": [
+        "booking-business-management-systems",
+        "saas-mvp-development",
+        "white-label-development"
+      ],
+      "seo": {
+        "seo_title": "Web applications & websites",
+        "seo_description": "Custom platforms, client portals, business websites and online stores built around how you work.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    {
+      "slug": "mobile-app-development",
+      "title": "Mobile app development",
+      "short": "iOS and Android apps that connect to your systems and get published to the stores.",
+      "intro": "We build cross-platform mobile apps with the back end and admin panel behind them, then publish and maintain them on the App Store and Google Play.",
+      "icon": "smartphone",
+      "tags": [
+        "iOS",
+        "Android",
+        "React Native",
+        "Flutter"
+      ],
+      "audience": [
+        {
+          "title": "Startups launching an app",
+          "text": "A consumer or marketplace app that needs to reach both stores from one codebase."
+        },
+        {
+          "title": "Businesses adding an app",
+          "text": "Customers who want to book, order or pay from their phone."
+        },
+        {
+          "title": "Marketplaces and platforms",
+          "text": "Two-sided apps for customers and providers, with an admin to run it."
+        },
+        {
+          "title": "Field and operations teams",
+          "text": "Staff apps for check-ins, jobs, forms and photos on the move."
+        }
+      ],
+      "problems": [
+        {
+          "problem": "Two separate builds doubling the cost",
+          "fix": "One React Native or Flutter codebase for iOS and Android"
+        },
+        {
+          "problem": "Apps that crash or feel slow",
+          "fix": "Performance testing on real devices and crash monitoring after release"
+        },
+        {
+          "problem": "No back end or admin control",
+          "fix": "APIs and an admin panel built alongside the app"
+        },
+        {
+          "problem": "Store rejections and publishing delays",
+          "fix": "We prepare listings, policies and builds to the store guidelines and handle review"
+        }
+      ],
+      "features": [
+        {
+          "title": "Cross-platform build",
+          "text": "One codebase, native look and feel on iOS and Android."
+        },
+        {
+          "title": "Back end and APIs",
+          "text": "Secure APIs, databases and file storage behind the app."
+        },
+        {
+          "title": "Admin panel",
+          "text": "A web dashboard to manage users, content, orders and settings."
+        },
+        {
+          "title": "Push notifications",
+          "text": "Targeted notifications for reminders, updates and offers."
+        },
+        {
+          "title": "Payments",
+          "text": "In-app purchases or payment gateways, depending on what you sell."
+        },
+        {
+          "title": "Store publishing",
+          "text": "App Store and Google Play listings, builds, review and release updates."
+        }
+      ],
+      "deliverables": [
+        "Mobile UX and UI design",
+        "Cross-platform iOS and Android build",
+        "Back-end APIs and admin panel",
+        "Push notifications and in-app payments",
+        "App Store and Google Play publishing",
+        "Crash monitoring and updates"
+      ],
+      "steps": [
+        {
+          "title": "Discovery",
+          "text": "Users, core journeys, the screens that matter and what the back end must do.",
+          "output": "Feature list, screen map and estimate"
+        },
+        {
+          "title": "App design",
+          "text": "Mobile UI for key screens, with a clickable prototype to test on your phone.",
+          "output": "Approved designs and prototype"
+        },
+        {
+          "title": "Build",
+          "text": "App, APIs and admin built in sprints, with test builds on your device.",
+          "output": "Test builds every sprint"
+        },
+        {
+          "title": "Store release",
+          "text": "Store listings, privacy details, builds and submission to Apple and Google.",
+          "output": "Your app live on both stores"
+        },
+        {
+          "title": "Support",
+          "text": "OS updates, crash fixes and new features after launch.",
+          "output": "Release notes for every update"
+        }
+      ],
+      "stack": [
+        "React Native",
+        "Flutter",
+        "Expo",
+        "Firebase",
+        "Node.js",
+        "Laravel",
+        "OneSignal"
+      ],
+      "faqs": [
+        {
+          "q": "Native or cross-platform?",
+          "a": "We usually recommend React Native or Flutter: one codebase for iOS and Android, with near-native performance."
+        },
+        {
+          "q": "Will you publish the app to the stores?",
+          "a": "Yes. We handle App Store and Google Play submission and review."
+        },
+        {
+          "q": "Can the app work with our existing system?",
+          "a": "Yes. We connect the app to your existing database, APIs or software."
+        },
+        {
+          "q": "Whose developer account is used?",
+          "a": "Yours. We help you create Apple and Google developer accounts so the app belongs to you."
+        },
+        {
+          "q": "Do you build the admin panel too?",
+          "a": "Yes. Most apps need a web admin, and we build it alongside the app."
+        },
+        {
+          "q": "What about updates after launch?",
+          "a": "We keep the app compatible with new iOS and Android versions on a care plan."
+        }
+      ],
+      "image": null,
+      "related": [
+        "saas-mvp-development",
+        "booking-business-management-systems",
+        "ai-integration-automation"
+      ],
+      "seo": {
+        "seo_title": "Mobile app development",
+        "seo_description": "iOS and Android apps that connect to your systems and get published to the stores.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    {
+      "slug": "booking-business-management-systems",
+      "title": "Booking & business management systems",
+      "short": "Online booking, memberships, CRMs and ERP-style systems that replace manual work.",
+      "intro": "We build booking and management systems shaped around your exact workflow, so appointments, payments, staff and reports live in one place you own.",
+      "icon": "calendar-check",
+      "tags": [
+        "Booking",
+        "CRM",
+        "Memberships",
+        "Reports"
+      ],
+      "audience": [
+        {
+          "title": "Clinics and practices",
+          "text": "Dentists, physiotherapists and clinics managing appointments, patients and staff."
+        },
+        {
+          "title": "Gyms, salons and studios",
+          "text": "Memberships, classes, packages and staff schedules in one system."
+        },
+        {
+          "title": "Academies and tutors",
+          "text": "Enrolments, batches, fees, attendance and parent updates."
+        },
+        {
+          "title": "Growing SMEs",
+          "text": "Rentals, home services and multi-branch businesses outgrowing spreadsheets."
+        }
+      ],
+      "problems": [
+        {
+          "problem": "Bookings managed by phone calls and WhatsApp",
+          "fix": "Online booking with live availability, linked to your calendar"
+        },
+        {
+          "problem": "No-shows and missed payments",
+          "fix": "Deposits, online payments and automatic SMS, email or WhatsApp reminders"
+        },
+        {
+          "problem": "Customer records scattered everywhere",
+          "fix": "One customer database with history, notes, packages and invoices"
+        },
+        {
+          "problem": "No clear view of revenue across branches",
+          "fix": "An owner dashboard with bookings, revenue and staff reports by branch"
+        }
+      ],
+      "features": [
+        {
+          "title": "Online booking",
+          "text": "Services, staff, availability, buffers and booking rules that match how you work."
+        },
+        {
+          "title": "Payments and invoices",
+          "text": "Deposits, full payments, packages and invoices, online or at the counter."
+        },
+        {
+          "title": "Reminders",
+          "text": "Automatic SMS, email or WhatsApp reminders and follow-ups."
+        },
+        {
+          "title": "Customer records",
+          "text": "Profiles, history, notes, memberships and documents in one place."
+        },
+        {
+          "title": "Staff and branches",
+          "text": "Schedules, commissions, permissions and multiple locations."
+        },
+        {
+          "title": "Reports and dashboard",
+          "text": "Bookings, revenue, utilisation and top services at a glance."
+        }
+      ],
+      "deliverables": [
+        "Online booking with availability calendars",
+        "Payments, deposits and invoices",
+        "SMS, email and WhatsApp reminders",
+        "Memberships, packages and customer records",
+        "Staff, inventory and branch management",
+        "Reports and owner dashboard"
+      ],
+      "steps": [
+        {
+          "title": "Workflow mapping",
+          "text": "We sit with you and your staff to map how bookings, payments and records work today.",
+          "output": "Workflow map and system scope"
+        },
+        {
+          "title": "Design",
+          "text": "Booking screens for customers and admin screens for your team.",
+          "output": "Approved screens for both sides"
+        },
+        {
+          "title": "Build",
+          "text": "Booking engine, payments, reminders and dashboard built in sprints.",
+          "output": "A test system you can try with real scenarios"
+        },
+        {
+          "title": "Data move and training",
+          "text": "We import customers and services, then train your staff.",
+          "output": "Your data in the new system and a trained team"
+        },
+        {
+          "title": "Go live and support",
+          "text": "Launch, monitoring and adjustments as your team uses it day to day.",
+          "output": "A stable system and a care plan"
+        }
+      ],
+      "stack": [
+        "Laravel",
+        "React",
+        "Node.js",
+        "MySQL",
+        "Stripe",
+        "Twilio",
+        "WhatsApp Business API",
+        "Google Calendar API"
+      ],
+      "faqs": [
+        {
+          "q": "Why custom instead of a ready-made app?",
+          "a": "It follows your workflow and branding, has no per-user monthly fees, and you own it."
+        },
+        {
+          "q": "Can customers get a mobile app too?",
+          "a": "Yes. We can add a customer app for booking, payments and reminders."
+        },
+        {
+          "q": "Does it support multiple branches?",
+          "a": "Yes. Branches, staff and reports can be managed from one dashboard."
+        },
+        {
+          "q": "Can you move our existing data?",
+          "a": "Yes. We import customers, services and history from spreadsheets or your current software."
+        },
+        {
+          "q": "Can reminders go out on WhatsApp?",
+          "a": "Yes, through the WhatsApp Business API, as well as SMS and email."
+        },
+        {
+          "q": "Will our staff need training?",
+          "a": "We train your team during go-live and leave short guides for new staff."
+        }
+      ],
+      "image": null,
+      "related": [
+        "web-applications-websites",
+        "mobile-app-development",
+        "ai-integration-automation"
+      ],
+      "seo": {
+        "seo_title": "Booking & business management systems",
+        "seo_description": "Online booking, memberships, CRMs and ERP-style systems that replace manual work.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    {
+      "slug": "ai-integration-automation",
+      "title": "AI integration & automation",
+      "short": "AI agents, agentic workflows, LLM features, RAG chatbots and automation built into your product and operations.",
+      "intro": "We design and build AI agents and automated workflows that take real work off your team, from LLM features and RAG knowledge assistants to multi-step agents that act across your tools, with guardrails, monitoring and human review.",
+      "icon": "bot",
+      "tags": [
+        "AI agents",
+        "LLMs",
+        "RAG",
+        "Automation"
+      ],
+      "audience": [
+        {
+          "title": "SaaS products",
+          "text": "Products adding AI features such as assistants, smart search, summaries, drafting or in-app agents."
+        },
+        {
+          "title": "Support and sales teams",
+          "text": "Teams answering the same questions every day on chat, email and WhatsApp, or qualifying leads by hand."
+        },
+        {
+          "title": "Operations teams",
+          "text": "People copying data out of PDFs, forms and emails into other systems, or chasing multi-step processes."
+        },
+        {
+          "title": "Busy owners",
+          "text": "Businesses that want repetitive admin work handled by agents and automations instead of people."
+        }
+      ],
+      "problems": [
+        {
+          "problem": "Hours lost to repetitive, multi-step manual tasks",
+          "fix": "AI agents and automated workflows that carry out the steps across your tools"
+        },
+        {
+          "problem": "Slow answers to common customer questions",
+          "fix": "A RAG assistant grounded in your own documents, with hand-off to a human"
+        },
+        {
+          "problem": "Knowledge scattered across documents, drives and chats",
+          "fix": "A searchable knowledge base your team and customers can ask in plain language"
+        },
+        {
+          "problem": "Data trapped in PDFs and emails",
+          "fix": "LLM document processing that extracts fields into your database or CRM"
+        },
+        {
+          "problem": "AI experiments that never reach production",
+          "fix": "Scoped use cases, evaluations, guardrails, cost limits and monitoring in production"
+        }
+      ],
+      "features": [
+        {
+          "title": "AI agents",
+          "text": "Agents that plan and complete multi-step tasks: look things up, update records, draft replies, book, follow up and escalate."
+        },
+        {
+          "title": "Agentic workflows",
+          "text": "Workflows where LLMs make decisions between steps, with tool calling, approvals and clear audit trails."
+        },
+        {
+          "title": "RAG knowledge assistants",
+          "text": "Assistants grounded in your documents, FAQs, policies and databases using retrieval-augmented generation and vector search."
+        },
+        {
+          "title": "LLM features in your product",
+          "text": "Summaries, drafting, classification, extraction and semantic search using OpenAI, Claude, Gemini or open-source models."
+        },
+        {
+          "title": "Chatbots for web and WhatsApp",
+          "text": "Customer-facing assistants that answer, qualify leads and hand over to your team when needed."
+        },
+        {
+          "title": "Workflow automation",
+          "text": "Connect forms, CRMs, sheets, email and WhatsApp with n8n, Make, Zapier or custom code."
+        },
+        {
+          "title": "Document processing",
+          "text": "Extract data from invoices, forms, CVs, contracts and PDFs into structured records."
+        },
+        {
+          "title": "Human in the loop",
+          "text": "Approval steps where accuracy matters, so AI assists people rather than replacing judgement."
+        },
+        {
+          "title": "Evaluation, monitoring and cost control",
+          "text": "Test sets, logs, quality checks and spend limits so AI stays reliable and affordable."
+        }
+      ],
+      "deliverables": [
+        "Use-case workshop and feasibility check",
+        "AI agents and agentic workflows",
+        "RAG knowledge assistants on your content",
+        "LLM integration (OpenAI, Claude, Gemini, open-source)",
+        "Chatbots for web and WhatsApp",
+        "Workflow automation across your tools",
+        "Document processing and data extraction",
+        "Evaluation, monitoring, cost control and human review"
+      ],
+      "steps": [
+        {
+          "title": "Use-case workshop",
+          "text": "We map repetitive tasks and decisions, and pick the ones where AI agents or automation clearly save time.",
+          "output": "Ranked use cases with effort and risk"
+        },
+        {
+          "title": "Proof of concept",
+          "text": "A small working agent, assistant or workflow tested on your real data.",
+          "output": "A demo and a go or no-go recommendation"
+        },
+        {
+          "title": "Build and integrate",
+          "text": "Production build inside your product or tools, with tool access, guardrails and approvals.",
+          "output": "AI agents and workflows live in your operations"
+        },
+        {
+          "title": "Evaluate and review",
+          "text": "Test sets, accuracy checks, edge cases and human review steps.",
+          "output": "Evaluation results and review process"
+        },
+        {
+          "title": "Monitor and improve",
+          "text": "Usage, quality and cost tracking, with prompt, retrieval and workflow tuning over time.",
+          "output": "A dashboard and regular improvements"
+        }
+      ],
+      "stack": [
+        "OpenAI API",
+        "Anthropic Claude API",
+        "Google Gemini",
+        "Open-source LLMs",
+        "LangChain",
+        "LangGraph",
+        "LlamaIndex",
+        "Pinecone",
+        "pgvector",
+        "Python",
+        "Node.js",
+        "n8n",
+        "Make",
+        "Zapier"
+      ],
+      "faqs": [
+        {
+          "q": "What is an AI agent, in plain terms?",
+          "a": "Software that uses an LLM to decide what to do next and then does it with your tools, such as searching records, updating a CRM or sending a follow-up, within limits you set."
+        },
+        {
+          "q": "What is RAG and why does it matter?",
+          "a": "Retrieval-augmented generation means the AI looks up answers in your own documents and data before replying, so answers are specific to your business and easier to check."
+        },
+        {
+          "q": "Is our data safe?",
+          "a": "We use providers that do not train on your data, limit access, and keep sensitive data out of prompts where possible. Self-hosted open-source models are an option too."
+        },
+        {
+          "q": "Can AI work inside our existing system?",
+          "a": "Yes. We integrate agents and AI features into your current product, CRM, helpdesk or internal tools."
+        },
+        {
+          "q": "How do you keep answers and actions accurate?",
+          "a": "We ground answers in your content, evaluate them against test cases, add guardrails, and keep a human approval step for important actions."
+        },
+        {
+          "q": "What will it cost to run?",
+          "a": "AI providers charge per use. We estimate running costs during the proof of concept and add spend limits."
+        },
+        {
+          "q": "Can the assistant work on WhatsApp?",
+          "a": "Yes. We can connect assistants and agents to your website, WhatsApp Business, email or internal tools."
+        },
+        {
+          "q": "Where should we start?",
+          "a": "With one repetitive task that costs your team time every week. A small win first makes the next step clearer."
+        }
+      ],
+      "image": null,
+      "related": [
+        "saas-mvp-development",
+        "booking-business-management-systems",
+        "web-applications-websites"
+      ],
+      "seo": {
+        "seo_title": "AI integration & automation",
+        "seo_description": "AI agents, agentic workflows, LLM features, RAG chatbots and automation built into your product and operations.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    {
+      "slug": "white-label-development",
+      "title": "White-label development for agencies",
+      "short": "Your brand, your client relationship. Our team designs, builds and deploys.",
+      "intro": "We work quietly behind your agency, delivering websites, apps and platforms under your brand while you keep the client relationship.",
+      "icon": "handshake",
+      "tags": [
+        "White label",
+        "NDA",
+        "Your brand",
+        "Capacity"
+      ],
+      "audience": [
+        {
+          "title": "Digital marketing agencies",
+          "text": "You sell growth and need websites, funnels and apps built properly."
+        },
+        {
+          "title": "Design and UX studios",
+          "text": "You own the design and need developers who respect it pixel for pixel."
+        },
+        {
+          "title": "Industry-focused agencies",
+          "text": "You serve clinics, gyms or real estate and need repeatable builds."
+        },
+        {
+          "title": "Consultants and AI agencies",
+          "text": "You sell automation and AI and need engineers to deliver it."
+        }
+      ],
+      "problems": [
+        {
+          "problem": "Saying no to projects you cannot build",
+          "fix": "A development team you can sell, without hiring"
+        },
+        {
+          "problem": "Unreliable freelancers and missed deadlines",
+          "fix": "A managed team with a project lead, weekly updates and written timelines"
+        },
+        {
+          "problem": "Hiring developers is slow and costly",
+          "fix": "Capacity per project or by the month, scaled to your pipeline"
+        },
+        {
+          "problem": "Quality issues that damage your reputation",
+          "fix": "Code reviews, testing and documentation on every delivery"
+        }
+      ],
+      "features": [
+        {
+          "title": "Proposal support",
+          "text": "Technical scoping, timelines and architecture notes you can put in your proposals."
+        },
+        {
+          "title": "Delivery under your brand",
+          "text": "Your name on everything. We stay invisible unless you choose otherwise."
+        },
+        {
+          "title": "Confidentiality",
+          "text": "Mutual NDA, no direct client contact and no portfolio use without permission."
+        },
+        {
+          "title": "Your tools and process",
+          "text": "We work in your Slack, Jira, Trello or ClickUp and follow your process."
+        },
+        {
+          "title": "Deployment",
+          "text": "Releases to your servers or your client's, with handover documentation."
+        },
+        {
+          "title": "Ongoing support",
+          "text": "Maintenance and updates after launch, billed to you, delivered under your brand."
+        }
+      ],
+      "deliverables": [
+        "Technical scoping for your proposals",
+        "Development under your brand",
+        "Mutual NDA and no client contact",
+        "Deployment to your or your client's servers",
+        "Handover documentation",
+        "Ongoing maintenance and support"
+      ],
+      "steps": [
+        {
+          "title": "Share the brief",
+          "text": "Send the opportunity, designs or client notes under NDA.",
+          "output": "A quick fit check"
+        },
+        {
+          "title": "Scope together",
+          "text": "We estimate effort and timeline for your proposal.",
+          "output": "Scope and timeline you can price"
+        },
+        {
+          "title": "Build under your brand",
+          "text": "Delivery in your tools, with updates you can forward to your client.",
+          "output": "Weekly updates and test links"
+        },
+        {
+          "title": "Deploy and hand over",
+          "text": "Release, documentation and handover to you or your client.",
+          "output": "Live project and documentation"
+        },
+        {
+          "title": "Support",
+          "text": "Fixes and improvements after launch, still under your name.",
+          "output": "Ongoing white-label support"
+        }
+      ],
+      "stack": [
+        "React",
+        "Next.js",
+        "Laravel",
+        "Node.js",
+        "WordPress",
+        "Shopify",
+        "React Native",
+        "Flutter"
+      ],
+      "faqs": [
+        {
+          "q": "Will our clients know you are involved?",
+          "a": "No. We work under your brand with a mutual NDA and no direct client contact unless you want it."
+        },
+        {
+          "q": "Can you help with proposals?",
+          "a": "Yes. We provide technical scoping and timelines you can use in your proposals."
+        },
+        {
+          "q": "Do you offer a monthly team?",
+          "a": "Yes. You can work per project or reserve monthly development capacity."
+        },
+        {
+          "q": "Can you join client calls as part of our team?",
+          "a": "Yes, if you want, using your agency's name and email addresses."
+        },
+        {
+          "q": "Who owns the code?",
+          "a": "You or your client, as agreed in your contract. We hand over everything at the end."
+        },
+        {
+          "q": "Can you work from our designs?",
+          "a": "Yes. We build from Figma, Adobe XD or any design files you provide."
+        }
+      ],
+      "image": null,
+      "related": [
+        "web-applications-websites",
+        "mobile-app-development",
+        "saas-mvp-development"
+      ],
+      "seo": {
+        "seo_title": "White-label development for agencies",
+        "seo_description": "Your brand, your client relationship. Our team designs, builds and deploys.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    }
+  ],
+  "caseStudies": [
+    {
+      "slug": "kokolet-luxury",
+      "name": "Kokolet Luxury",
+      "category": "Web",
+      "platform": "Web store",
+      "summary": "A premium online store connecting product discovery, checkout and repeat purchases.",
+      "challenge": "Create an online flagship that felt as considered as the products, while keeping browsing and repeat purchasing simple.",
+      "solution": "We designed an editorial storefront and connected the catalogue, checkout and order operations behind it.",
+      "features": [
+        {
+          "title": "Editorial catalogue",
+          "text": "Collections and product pages designed to present products the way the brand does in store."
+        },
+        {
+          "title": "Secure checkout",
+          "text": "A short checkout flow with online payments."
+        },
+        {
+          "title": "Loyalty journey",
+          "text": "Account features that encourage customers to come back."
+        },
+        {
+          "title": "Order operations",
+          "text": "Admin tools to manage orders, stock and fulfilment."
+        }
+      ],
+      "scope": [
+        "UI and UX design",
+        "Storefront development",
+        "Payments integration",
+        "Admin and order management",
+        "Deployment"
+      ],
+      "stack": [
+        "React",
+        "Commerce API",
+        "Payments",
+        "Analytics"
+      ],
+      "results": null,
+      "quote": null,
+      "services": [
+        "web-applications-websites"
+      ],
+      "clientType": "Luxury retail brand",
+      "quoteAuthor": null,
+      "projectUrl": null,
+      "coverImage": null,
+      "gallery": [],
+      "seo": {
+        "seo_title": "Kokolet Luxury",
+        "seo_description": "A premium online store connecting product discovery, checkout and repeat purchases.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    {
+      "slug": "colala-mall",
+      "name": "Colala Mall",
+      "category": "Web",
+      "platform": "Web marketplace",
+      "summary": "A marketplace connecting buyers, sellers, payments and fulfilment in one platform.",
+      "challenge": "Make seller onboarding and product discovery simple while supporting a growing catalogue.",
+      "solution": "We delivered a modular marketplace with clear seller operations and a transaction flow that can grow with the platform.",
+      "features": [
+        {
+          "title": "Seller onboarding",
+          "text": "Sign-up, store setup and product listing for sellers."
+        },
+        {
+          "title": "Product discovery",
+          "text": "Search, categories and filters for buyers."
+        },
+        {
+          "title": "Payments",
+          "text": "Checkout and payment handling between buyers and sellers."
+        },
+        {
+          "title": "Order management",
+          "text": "Order tracking and fulfilment tools for sellers and admins."
+        }
+      ],
+      "scope": [
+        "Marketplace architecture",
+        "Buyer and seller web apps",
+        "Admin panel",
+        "Payments integration",
+        "Deployment"
+      ],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Payments"
+      ],
+      "results": null,
+      "quote": null,
+      "services": [
+        "web-applications-websites",
+        "saas-mvp-development"
+      ],
+      "clientType": "Online marketplace",
+      "quoteAuthor": null,
+      "projectUrl": null,
+      "coverImage": null,
+      "gallery": [],
+      "seo": {
+        "seo_title": "Colala Mall",
+        "seo_description": "A marketplace connecting buyers, sellers, payments and fulfilment in one platform.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    {
+      "slug": "billspro",
+      "name": "BillsPro",
+      "category": "Mobile",
+      "platform": "iOS and Android",
+      "summary": "A mobile app bringing bill payments, a wallet and virtual cards into one product.",
+      "challenge": "Combine several payment actions in one app without overwhelming customers.",
+      "solution": "We built a mobile-first app with clear transaction flows, status visibility and admin controls behind it.",
+      "features": [
+        {
+          "title": "Digital wallet",
+          "text": "Balance, top-ups and transaction history."
+        },
+        {
+          "title": "Bill payments",
+          "text": "Guided flows for paying everyday bills."
+        },
+        {
+          "title": "Virtual cards",
+          "text": "Card creation and management inside the app."
+        },
+        {
+          "title": "Transaction monitoring",
+          "text": "Admin views to track and support transactions."
+        }
+      ],
+      "scope": [
+        "Mobile UI and UX design",
+        "Cross-platform app build",
+        "Back-end APIs",
+        "Admin panel",
+        "Store publishing"
+      ],
+      "stack": [
+        "React Native",
+        "Node.js",
+        "PostgreSQL",
+        "Payment APIs"
+      ],
+      "results": null,
+      "quote": null,
+      "services": [
+        "mobile-app-development"
+      ],
+      "clientType": "Payments app",
+      "quoteAuthor": null,
+      "projectUrl": null,
+      "coverImage": null,
+      "gallery": [],
+      "seo": {
+        "seo_title": "BillsPro",
+        "seo_description": "A mobile app bringing bill payments, a wallet and virtual cards into one product.",
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    }
+  ],
+  "posts": {
+    "posts": [
+      {
+        "slug": "from-mvp-to-operating-system",
+        "title": "From MVP to operating system",
+        "excerpt": "What changes when a promising product starts carrying real operational weight.",
+        "category": "Product",
+        "categorySlug": "product",
+        "author": "LogicsGrid team",
+        "readTime": "6 min read",
+        "publishedAt": "2026-09-18T00:00:00+00:00",
+        "seo": {
+          "seo_title": null,
+          "seo_description": null,
+          "seo_keywords": null,
+          "og_image": null,
+          "canonical_url": null,
+          "noindex": false
+        }
+      },
+      {
+        "slug": "automation-before-ai",
+        "title": "Automate the workflow before adding AI",
+        "excerpt": "A practical sequence for making AI useful inside day-to-day operations.",
+        "category": "AI",
+        "categorySlug": "ai",
+        "author": "LogicsGrid team",
+        "readTime": "5 min read",
+        "publishedAt": "2026-08-27T00:00:00+00:00",
+        "seo": {
+          "seo_title": null,
+          "seo_description": null,
+          "seo_keywords": null,
+          "og_image": null,
+          "canonical_url": null,
+          "noindex": false
+        }
+      },
+      {
+        "slug": "one-accountable-technology-partner",
+        "title": "Why one accountable technology partner changes delivery",
+        "excerpt": "Reducing handoffs can improve speed, ownership, and the quality of business decisions.",
+        "category": "Operations",
+        "categorySlug": "operations",
+        "author": "LogicsGrid team",
+        "readTime": "7 min read",
+        "publishedAt": "2026-07-09T00:00:00+00:00",
+        "seo": {
+          "seo_title": null,
+          "seo_description": null,
+          "seo_keywords": null,
+          "og_image": null,
+          "canonical_url": null,
+          "noindex": false
+        }
+      }
+    ],
+    "categories": [
+      {
+        "slug": "ai",
+        "name": "AI"
+      },
+      {
+        "slug": "operations",
+        "name": "Operations"
+      },
+      {
+        "slug": "product",
+        "name": "Product"
+      }
+    ]
+  },
+  "postBodies": {
+    "from-mvp-to-operating-system": {
+      "slug": "from-mvp-to-operating-system",
+      "title": "From MVP to operating system",
+      "excerpt": "What changes when a promising product starts carrying real operational weight.",
+      "body": "<h2>The product is only the beginning</h2><p>An MVP proves that a useful interaction exists. A durable business needs the workflows, data, controls, and feedback loops around that interaction to mature with it.</p><h2>Design for the next constraint</h2><p>Good architecture does not predict every future. It makes the next likely change easier, observable, and safer to ship.</p><h2>Operate what you build</h2><p>The strongest product teams connect engineering decisions to adoption, support, revenue, and operational efficiency.</p>",
+      "category": "Product",
+      "categorySlug": "product",
+      "author": "LogicsGrid team",
+      "readTime": "6 min read",
+      "publishedAt": "2026-09-18T00:00:00+00:00",
+      "seo": {
+        "seo_title": null,
+        "seo_description": null,
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    "automation-before-ai": {
+      "slug": "automation-before-ai",
+      "title": "Automate the workflow before adding AI",
+      "excerpt": "A practical sequence for making AI useful inside day-to-day operations.",
+      "body": "<h2>Start with the handoffs</h2><p>AI cannot rescue a process nobody can explain. Map the decisions, owners, inputs, and exceptions before choosing a model.</p><h2>Make quality measurable</h2><p>Define what a correct outcome looks like, then keep a human review path for low-confidence cases.</p><h2>Earn autonomy</h2><p>Start with recommendations, measure performance, and expand automation only when the evidence supports it.</p>",
+      "category": "AI",
+      "categorySlug": "ai",
+      "author": "LogicsGrid team",
+      "readTime": "5 min read",
+      "publishedAt": "2026-08-27T00:00:00+00:00",
+      "seo": {
+        "seo_title": null,
+        "seo_description": null,
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    },
+    "one-accountable-technology-partner": {
+      "slug": "one-accountable-technology-partner",
+      "title": "Why one accountable technology partner changes delivery",
+      "excerpt": "Reducing handoffs can improve speed, ownership, and the quality of business decisions.",
+      "body": "<h2>Handoffs hide risk</h2><p>When strategy, design, engineering, growth, and operations report to different owners, important context disappears between teams.</p><h2>One outcome, one system</h2><p>Shared goals let technical and commercial decisions reinforce each other instead of competing for attention.</p><h2>Continuity compounds</h2><p>A partner who stays after launch can connect production evidence to the next roadmap decision.</p>",
+      "category": "Operations",
+      "categorySlug": "operations",
+      "author": "LogicsGrid team",
+      "readTime": "7 min read",
+      "publishedAt": "2026-07-09T00:00:00+00:00",
+      "seo": {
+        "seo_title": null,
+        "seo_description": null,
+        "seo_keywords": null,
+        "og_image": null,
+        "canonical_url": null,
+        "noindex": false
+      }
+    }
+  },
+  "techGroups": [
+    {
+      "title": "Back end",
+      "text": "APIs, business logic, queues and integrations.",
+      "core": [
+        "Laravel",
+        "Node.js",
+        "Python",
+        "PHP"
+      ],
+      "also": [
+        "Express",
+        "NestJS",
+        "Django",
+        "FastAPI",
+        ".NET",
+        "Java"
+      ]
+    },
+    {
+      "title": "Front end",
+      "text": "Fast, accessible web interfaces and dashboards.",
+      "core": [
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "also": [
+        "TypeScript",
+        "Vue.js",
+        "Inertia.js"
+      ]
+    },
+    {
+      "title": "Mobile",
+      "text": "Cross-platform apps for iOS and Android.",
+      "core": [
+        "React Native",
+        "Flutter"
+      ],
+      "also": [
+        "Expo",
+        "Firebase",
+        "OneSignal"
+      ]
+    },
+    {
+      "title": "Databases",
+      "text": "Reliable storage for transactional and reporting data.",
+      "core": [
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "also": [
+        "MongoDB",
+        "Redis",
+        "Firestore"
+      ]
+    },
+    {
+      "title": "AI, agents and automation",
+      "text": "AI agents, agentic workflows, LLM features, RAG and automation.",
+      "core": [
+        "OpenAI API",
+        "Anthropic Claude API",
+        "LangChain",
+        "LangGraph",
+        "n8n"
+      ],
+      "also": [
+        "Google Gemini",
+        "Open-source LLMs",
+        "LlamaIndex",
+        "Pinecone",
+        "pgvector",
+        "Make",
+        "Zapier"
+      ]
+    },
+    {
+      "title": "CMS and e-commerce",
+      "text": "Content and stores your team can manage.",
+      "core": [
+        "WordPress",
+        "Shopify"
+      ],
+      "also": [
+        "WooCommerce",
+        "Headless CMS"
+      ]
+    },
+    {
+      "title": "Cloud and deployment",
+      "text": "Hosting, pipelines and monitoring.",
+      "core": [
+        "AWS",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "also": [
+        "DigitalOcean",
+        "Vercel",
+        "Cloudflare",
+        "Nginx"
+      ]
+    },
+    {
+      "title": "Integrations",
+      "text": "Payments, messaging and third-party services.",
+      "core": [
+        "Stripe",
+        "WhatsApp Business API"
+      ],
+      "also": [
+        "Twilio",
+        "Google Calendar API",
+        "PayPal",
+        "Local payment gateways"
+      ]
+    }
+  ],
+  "carePlans": [
+    {
+      "name": "Essential",
+      "label": "Plan 1",
+      "for": "Websites and smaller systems that need to stay secure and online.",
+      "points": [
+        "Uptime monitoring",
+        "Security and dependency updates",
+        "Regular backups",
+        "Bug fixes",
+        "Small content changes"
+      ],
+      "is_highlighted": false
+    },
+    {
+      "name": "Growth",
+      "label": "Most flexible",
+      "for": "Live products that need regular improvements as well as care.",
+      "points": [
+        "Everything in Essential",
+        "A monthly block of development time",
+        "Performance reviews",
+        "New features and integrations",
+        "Monthly progress report"
+      ],
+      "is_highlighted": true
+    },
+    {
+      "name": "Dedicated team",
+      "label": "Plan 3",
+      "for": "Products and agencies that need ongoing, reserved capacity.",
+      "points": [
+        "Developers reserved for your work",
+        "Project lead and planning",
+        "Weekly sprints and updates",
+        "Design, QA and DevOps as needed",
+        "Scale the team up or down"
+      ],
+      "is_highlighted": false
+    }
+  ]
+}
