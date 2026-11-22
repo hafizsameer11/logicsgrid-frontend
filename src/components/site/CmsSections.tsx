@@ -44,7 +44,11 @@ function WorkSection({ d, data }: { d: D; data: PageData }) {
   const items = list<string>(d.case_studies).length
     ? data.caseStudies.filter((c) => d.case_studies.includes(c.slug))
     : data.caseStudies;
-  const categories = ["All", ...Array.from(new Set(data.caseStudies.map((c) => c.category)))];
+  // Filter buttons come from the projects' categories, busiest first, each with its count.
+  const counts = new Map<string, number>();
+  for (const c of data.caseStudies) counts.set(c.category, (counts.get(c.category) ?? 0) + 1);
+  const categories = ["All", ...[...counts.entries()].sort((a, b) => b[1] - a[1]).map(([c]) => c)];
+  const countOf = (c: string) => (c === "All" ? data.caseStudies.length : (counts.get(c) ?? 0));
   const [filter, setFilter] = useState("All");
   if (!d.filters)
     return (
@@ -59,11 +63,7 @@ function WorkSection({ d, data }: { d: D; data: PageData }) {
   return (
     <Shell d={d}>
       <Heading d={d} />
-      <div
-        className="flex gap-2 overflow-x-auto pb-4"
-        role="tablist"
-        aria-label="Filter case studies"
-      >
+      <div className="flex flex-wrap gap-2 pb-4" role="tablist" aria-label="Filter case studies">
         {categories.map((item) => (
           <button
             key={item}
@@ -73,6 +73,7 @@ function WorkSection({ d, data }: { d: D; data: PageData }) {
             className={`min-h-11 shrink-0 rounded-xl border px-5 text-sm font-semibold ${filter === item ? "border-primary bg-primary text-primary-foreground" : "border-border text-muted-foreground"}`}
           >
             {item}
+            <span className="ml-2 text-xs opacity-70">{countOf(item)}</span>
           </button>
         ))}
       </div>
