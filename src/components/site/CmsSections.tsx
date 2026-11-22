@@ -1,5 +1,7 @@
 import { useState, type ReactNode } from "react";
-import { Clock, Mail, MapPin, MessageCircle, Phone, ArrowUpRight } from "lucide-react";
+import { Link } from "@tanstack/react-router";
+import { Clock, Mail, MapPin, MessageCircle, Phone, ArrowRight, ArrowUpRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import type { Block, PageData } from "@/lib/cms";
 import { phoneHref, whatsappHref } from "@/lib/cms";
 import { CmsLink, useSite } from "@/lib/site-context";
@@ -40,6 +42,8 @@ function Heading({ d }: { d: D }) {
   return <SectionHeading eyebrow={d.eyebrow} title={d.title} text={d.text} />;
 }
 
+const FEATURED_COUNT = 6;
+
 function WorkSection({ d, data }: { d: D; data: PageData }) {
   const items = list<string>(d.case_studies).length
     ? data.caseStudies.filter((c) => d.case_studies.includes(c.slug))
@@ -50,15 +54,29 @@ function WorkSection({ d, data }: { d: D; data: PageData }) {
   const categories = ["All", ...[...counts.entries()].sort((a, b) => b[1] - a[1]).map(([c]) => c)];
   const countOf = (c: string) => (c === "All" ? data.caseStudies.length : (counts.get(c) ?? 0));
   const [filter, setFilter] = useState("All");
-  if (!d.filters)
+  if (!d.filters) {
+    // Teaser blocks (home page etc.) show a short selection, not the whole portfolio.
+    // Picking projects in the admin overrides this; otherwise the first six by sort order show.
+    const featured = list<string>(d.case_studies).length ? items : items.slice(0, FEATURED_COUNT);
     return (
       <Shell d={d}>
         <Heading d={d} />
         <div className="mt-12">
-          <WorkCards items={items} />
+          <WorkCards items={featured} />
         </div>
+        {data.caseStudies.length > featured.length ? (
+          <div className="mt-10 flex justify-center">
+            <Button asChild size="lg" variant="outline">
+              <Link to="/work">
+                View all {data.caseStudies.length} projects
+                <ArrowRight aria-hidden="true" />
+              </Link>
+            </Button>
+          </div>
+        ) : null}
       </Shell>
     );
+  }
   const shown = filter === "All" ? items : items.filter((x) => x.category === filter);
   return (
     <Shell d={d}>
