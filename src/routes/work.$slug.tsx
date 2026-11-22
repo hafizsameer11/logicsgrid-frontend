@@ -161,12 +161,15 @@ function Page() {
               <Checklist items={item.scope} columns={1} />
             </div>
           </div>
-          <div>
-            <SectionHeading eyebrow="Technology" title="Tools chosen for the job" />
-            <div className="mt-8">
-              <Chips items={item.stack} />
+          {/* Only list technologies when they are known; an empty heading looks broken. */}
+          {item.stack.length ? (
+            <div>
+              <SectionHeading eyebrow="Technology" title="Tools chosen for the job" />
+              <div className="mt-8">
+                <Chips items={item.stack} />
+              </div>
             </div>
-          </div>
+          ) : null}
         </div>
       </section>
 
