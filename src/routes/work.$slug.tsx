@@ -1,11 +1,20 @@
-import { createFileRoute, notFound, Link } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
+import { ArrowUpRight } from "lucide-react";
 import { cms } from "@/lib/cms";
 import { useSite } from "@/lib/site-context";
 import { cmsLinks, cmsSeo, notFoundMeta } from "@/lib/seo";
-import { ProblemFix, TiltCard } from "@/components/site/Depth";
 import {
-  Checklist,
-  Chips,
+  FactStrip,
+  FeatureGrid,
+  Gallery,
+  HeroShowcase,
+  NextProject,
+  ReadingProgress,
+  ScopeAndStack,
+  ScrollShowcase,
+  Story,
+} from "@/components/site/CaseStudy";
+import {
   CtaBanner,
   HeroActions,
   MobileStickyCta,
@@ -13,7 +22,7 @@ import {
   SectionHeading,
   TiltedVisual,
 } from "@/components/site/PageKit";
-import { NumberedRows, ServiceList } from "@/components/site/Sections";
+import { ServiceList } from "@/components/site/Sections";
 
 // Case studies are edited in the CMS: Content → Projects.
 export const Route = createFileRoute("/work/$slug")({
@@ -55,16 +64,13 @@ function Page() {
     ["Services", usedServices.map((s) => s.title).join(", ")],
   ].filter(([, v]) => v) as [string, string][];
   const visual = item.coverImage ? (
-    <img
-      src={item.coverImage}
-      alt={`${item.name} screenshot`}
-      className="w-full rounded-2xl object-cover shadow-[0_40px_80px_-30px_color-mix(in_oklab,var(--electric)_55%,transparent)]"
-    />
+    <HeroShowcase item={item} />
   ) : (
     <TiltedVisual label={item.name} />
   );
   return (
     <>
+      <ReadingProgress />
       <PageHero
         eyebrow={`Case study · ${item.category}`}
         title={item.name}
@@ -77,34 +83,20 @@ function Page() {
             href={item.projectUrl}
             target="_blank"
             rel="noreferrer"
-            className="text-sm font-semibold text-electric"
+            className="group inline-flex items-center gap-1.5 text-sm font-semibold text-electric"
           >
-            Visit the live project →
+            Visit the live project
+            <ArrowUpRight
+              className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+              aria-hidden="true"
+            />
           </a>
         ) : null}
       </PageHero>
 
-      <section className="pt-12">
-        <div className="content-shell">
-          <dl className="grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
-            {facts.map(([label, value]) => (
-              <div key={label} className="bg-card p-6">
-                <dt className="eyebrow">{label}</dt>
-                <dd className="mt-2 font-medium">{value}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-      </section>
-
-      {item.challenge || item.solution ? (
-        <section className="section-shell">
-          <div className="content-shell">
-            <SectionHeading eyebrow="Challenge and solution" title="What needed solving" />
-            <ProblemFix rows={[{ problem: item.challenge ?? "", fix: item.solution ?? "" }]} />
-          </div>
-        </section>
-      ) : null}
+      <FactStrip facts={facts} />
+      <ScrollShowcase item={item} />
+      <Story challenge={item.challenge} solution={item.solution} />
 
       {item.results?.length ? (
         <section className="section-shell">
@@ -124,54 +116,10 @@ function Page() {
         </section>
       ) : null}
 
-      {item.features.length ? (
-        <section className="section-shell section-alt">
-          <div className="content-shell">
-            <SectionHeading eyebrow="Key features" title="Focused on the work that matters" />
-            <NumberedRows items={item.features} />
-          </div>
-        </section>
-      ) : null}
-
-      {item.gallery.length ? (
-        <section className="section-shell">
-          <div className="content-shell">
-            <SectionHeading eyebrow="Screens" title="Inside the product" />
-            <div className="mt-12 grid gap-6 md:grid-cols-2">
-              {item.gallery.map((src) => (
-                <TiltCard key={src} className="p-0">
-                  <img
-                    src={src}
-                    alt={`${item.name} screen`}
-                    className="w-full rounded-2xl object-cover"
-                    loading="lazy"
-                  />
-                </TiltCard>
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
-
-      <section className="section-shell">
-        <div className="content-shell grid gap-12 lg:grid-cols-2">
-          <div>
-            <SectionHeading eyebrow="Our scope" title="What we delivered" />
-            <div className="mt-8">
-              <Checklist items={item.scope} columns={1} />
-            </div>
-          </div>
-          {/* Only list technologies when they are known; an empty heading looks broken. */}
-          {item.stack.length ? (
-            <div>
-              <SectionHeading eyebrow="Technology" title="Tools chosen for the job" />
-              <div className="mt-8">
-                <Chips items={item.stack} />
-              </div>
-            </div>
-          ) : null}
-        </div>
-      </section>
+      <FeatureGrid features={item.features} />
+      <Gallery item={item} />
+      {/* Technology is only shown when the stack is known; an empty heading looks broken. */}
+      <ScopeAndStack scope={item.scope} stack={item.stack} />
 
       {item.quote ? (
         <section className="section-shell section-alt">
@@ -195,21 +143,7 @@ function Page() {
         </section>
       ) : null}
 
-      {next ? (
-        <section className="section-shell">
-          <div className="content-shell">
-            <p className="eyebrow">Next case study</p>
-            <Link
-              to="/work/$slug"
-              params={{ slug: next.slug }}
-              className="mt-4 inline-block font-display text-3xl font-semibold hover:text-electric sm:text-5xl"
-            >
-              {next.name} →
-            </Link>
-            <p className="mt-3 text-muted-foreground">{next.summary}</p>
-          </div>
-        </section>
-      ) : null}
+      {next ? <NextProject next={next} /> : null}
 
       <CtaBanner />
       <MobileStickyCta />
