@@ -28,11 +28,12 @@ export function PageHero({
   labels?: readonly string[] | undefined;
 }) {
   return (
-    <header className="relative overflow-hidden border-b border-border pt-32 pb-16 sm:pt-36 md:pb-24">
+    // lg:min-h-svh matches the home hero (min-h-screen) so every page opens with the same hero height.
+    <header className="page-hero relative flex items-center overflow-hidden border-b border-border pt-32 pb-16 sm:pt-36 md:pb-24 lg:min-h-svh">
       <div className="bg-grid-lines absolute inset-0 opacity-40" aria-hidden="true" />
       <div className="page-hero-glow absolute inset-0" aria-hidden="true" />
       <div className="depth-floor" aria-hidden="true" />
-      <div className="content-shell relative grid items-center gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
+      <div className="content-shell relative grid w-full items-center gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
         <div className="min-w-0">
           {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
           <h1 className="page-title mt-5 max-w-4xl">{title}</h1>

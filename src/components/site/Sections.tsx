@@ -107,7 +107,7 @@ export function FeatureTabs({
               <p className="mt-6 font-display text-sm text-electric">
                 {pad(active)} / {pad(items.length - 1)}
               </p>
-              <h3 className="mt-2 max-w-md font-display text-4xl font-bold">{current.title}</h3>
+              <h3 className="mt-2 max-w-md font-display text-4xl font-semibold">{current.title}</h3>
               <p className="mt-4 max-w-lg text-lg leading-8 text-muted-foreground">
                 {current.text}
               </p>
@@ -130,7 +130,7 @@ export function AudienceList({
       {items.map((a, i) => (
         <Reveal key={a.title} delay={i * 0.05}>
           <div className="group grid gap-3 border-t border-border py-8 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] md:items-center md:gap-10">
-            <h3 className="font-display text-2xl font-bold transition-all duration-300 group-hover:translate-x-2 group-hover:text-electric sm:text-4xl">
+            <h3 className="font-display text-2xl font-semibold transition-all duration-300 group-hover:translate-x-2 group-hover:text-electric sm:text-4xl">
               {a.title}
             </h3>
             <p className="text-lg leading-8 text-muted-foreground">{a.text}</p>

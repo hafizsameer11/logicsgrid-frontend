@@ -59,7 +59,7 @@ export function Process({
                   <span className="font-display text-xs font-bold tracking-[0.3em] text-electric">
                     {s.n}
                   </span>
-                  <h3 className="font-display mt-3 text-2xl font-bold">{s.title}</h3>
+                  <h3 className="font-display mt-3 text-2xl font-semibold">{s.title}</h3>
                   <p className="mt-2 text-sm text-muted-foreground">{s.body}</p>
                 </div>
               </motion.div>

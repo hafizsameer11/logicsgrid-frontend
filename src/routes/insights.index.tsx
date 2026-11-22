@@ -72,7 +72,7 @@ function Page() {
                     ) : null}
                     <div className="flex flex-1 flex-col p-6">
                       {post.category ? <p className="eyebrow">{post.category}</p> : null}
-                      <h2 className="mt-5 text-2xl font-semibold">{post.title}</h2>
+                      <h2 className="mt-5 text-2xl font-bold">{post.title}</h2>
                       {post.excerpt ? (
                         <p className="mt-4 leading-7 text-muted-foreground">{post.excerpt}</p>
                       ) : null}

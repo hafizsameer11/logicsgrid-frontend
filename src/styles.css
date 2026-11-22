@@ -50,7 +50,7 @@
   --color-sidebar-accent: var(--sidebar-accent);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
-  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -150,6 +150,15 @@
     font-size: 1rem;
     line-height: 1.6;
   }
+  /* Typography: headings in Plus Jakarta Sans (h1/h2 700, h3/h4 600); body, subheadings and buttons in Inter. */
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  /* Green accent text is a label, not editable text: keep the normal arrow cursor. */
+  :where(p, span, li, div).text-secondary-accent { cursor: default; }
+  h1, h2 { font-weight: 700; }
+  h3, h4 { font-weight: 600; }
   ::selection {
     background: color-mix(in oklab, var(--electric) 40%, transparent);
   }
@@ -204,7 +213,8 @@
 }
 
 @utility eyebrow {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
+  font-weight: 500;
   font-size: 0.72rem;
   letter-spacing: 0.32em;
   text-transform: uppercase;

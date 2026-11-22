@@ -84,7 +84,7 @@ function WorkSection({ d, data }: { d: D; data: PageData }) {
         </div>
       ) : (
         <div className="mt-8 rounded-2xl border border-dashed border-border p-10 text-center">
-          <h2 className="text-2xl font-semibold">{filter} case studies are on the way</h2>
+          <h2 className="text-2xl font-bold">{filter} case studies are on the way</h2>
           <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
             We are preparing these with client permission. Ask us for relevant examples on a call.
           </p>
@@ -232,7 +232,7 @@ function TechGroupsSection({ d, data }: { d: D; data: PageData }) {
             <div className="grid gap-5 border-t border-border py-8 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.6fr)] lg:gap-12">
               <div>
                 <p className="font-display text-sm text-electric">{pad(i)}</p>
-                <h3 className="mt-2 font-display text-2xl font-bold">{g.title}</h3>
+                <h3 className="mt-2 font-display text-2xl font-semibold">{g.title}</h3>
                 <p className="mt-2 text-muted-foreground">{g.text}</p>
               </div>
               <div className="flex flex-wrap content-start gap-2">
@@ -320,7 +320,7 @@ export function CmsBlock({ block, data }: { block: Block; data: PageData }) {
                     ))}
                   </div>
                   <p className="mt-6 eyebrow">Stage {i + 1}</p>
-                  <h3 className="mt-3 font-display text-5xl font-bold transition-colors group-hover:text-electric">
+                  <h3 className="mt-3 font-display text-5xl font-semibold transition-colors group-hover:text-electric">
                     {s.title}
                   </h3>
                   <p className="mt-4 text-lg leading-8 text-muted-foreground">{s.text}</p>
@@ -459,7 +459,7 @@ export function CmsBlock({ block, data }: { block: Block; data: PageData }) {
                 <span className="depth-step-index transition-all duration-500 group-hover:[-webkit-text-stroke-color:var(--cyan-glow)]">
                   {pad(i)}
                 </span>
-                <h3 className="mt-4 font-display text-3xl font-bold">{a.title}</h3>
+                <h3 className="mt-4 font-display text-3xl font-semibold">{a.title}</h3>
                 <div className="mt-5">
                   <Checklist items={list<string>(a.points)} />
                 </div>
@@ -485,7 +485,7 @@ export function CmsBlock({ block, data }: { block: Block; data: PageData }) {
                     />
                     <div className="pb-4">
                       {s.label ? <p className="eyebrow">{s.label}</p> : null}
-                      <h3 className="mt-3 font-display text-3xl font-bold sm:text-4xl">
+                      <h3 className="mt-3 font-display text-3xl font-semibold sm:text-4xl">
                         {s.title}
                       </h3>
                       <p className="mt-3 max-w-xl text-lg leading-8 text-muted-foreground">
@@ -509,7 +509,7 @@ export function CmsBlock({ block, data }: { block: Block; data: PageData }) {
                 <span className="depth-step-index transition-all duration-500 group-hover:[-webkit-text-stroke-color:var(--cyan-glow)]">
                   {pad(i)}
                 </span>
-                <h3 className="mt-4 font-display text-4xl font-bold">{v.title}</h3>
+                <h3 className="mt-4 font-display text-4xl font-semibold">{v.title}</h3>
                 <p className="mt-4 max-w-md text-lg leading-8 text-muted-foreground">{v.text}</p>
               </div>
             ))}
@@ -532,6 +532,15 @@ export function CmsBlock({ block, data }: { block: Block; data: PageData }) {
       );
     case "stats":
       if (d.animated) return <Metrics />;
+      // Without a heading the strip only needs a little breathing room, not a full section's padding.
+      if (!d.title && !d.eyebrow)
+        return (
+          <section className={`py-10 md:py-12 ${d.alt ? "section-alt" : ""}`}>
+            <div className="content-shell">
+              <StatsStrip />
+            </div>
+          </section>
+        );
       return (
         <Shell d={d}>
           <Heading d={d} />
@@ -614,7 +623,7 @@ export function CmsBlock({ block, data }: { block: Block; data: PageData }) {
             {list<string>(d.aside_items).length ? (
               <aside className="space-y-5 lg:pt-24">
                 <div className="surface-card">
-                  <h2 className="text-xl font-semibold">{d.aside_title}</h2>
+                  <h2 className="text-xl font-bold">{d.aside_title}</h2>
                   <div className="mt-5">
                     <Checklist items={list<string>(d.aside_items)} columns={1} />
                   </div>

@@ -171,15 +171,18 @@ export function DepthSteps({
         aria-hidden="true"
       />
       {steps.map((step, i) => (
-        <li key={step.title} className="group relative list-none pl-20 lg:pl-0">
+        <li key={step.title} className="group relative list-none pl-20 lg:flex lg:flex-col lg:pl-0">
           <span className="absolute top-0 left-0 grid h-12 w-12 place-items-center rounded-full border border-electric/70 bg-background font-display text-sm font-bold text-electric shadow-[0_0_24px_color-mix(in_oklab,var(--electric)_45%,transparent)] transition-transform duration-500 group-hover:scale-110 lg:relative">
             {String(i + 1).padStart(2, "0")}
           </span>
-          <Reveal delay={i * 0.08}>
+          {/* Column layout on desktop pushes each outcome line to the bottom, so they line up across steps. */}
+          <Reveal delay={i * 0.08} className="lg:flex lg:flex-1 lg:flex-col">
             <h3 className="text-xl font-semibold lg:mt-7">{step.title}</h3>
             <p className="mt-3 leading-7 text-muted-foreground">{step.text}</p>
             {step.output ? (
-              <p className="mt-4 text-sm text-secondary-accent">→ {step.output}</p>
+              <p className="mt-4 text-sm text-secondary-accent lg:mt-auto lg:pt-4">
+                → {step.output}
+              </p>
             ) : null}
           </Reveal>
         </li>
@@ -198,19 +201,20 @@ export function ProblemFix({ rows }: { rows: readonly { problem: string; fix: st
       </div>
       {rows.map((row) => (
         <div key={row.problem} className="grid md:grid-cols-2">
-          <p className="p-5 text-muted-foreground sm:p-6">
+          {/* Dot and text sit side by side, so wrapped lines start under the text, not under the dot. */}
+          <p className="flex items-start gap-3 p-5 text-muted-foreground sm:p-6">
             <span
-              className="mr-2 inline-block h-2 w-2 rounded-full bg-destructive/80"
+              className="mt-[0.6rem] h-2 w-2 shrink-0 rounded-full bg-destructive/80"
               aria-hidden="true"
             />
-            {row.problem}
+            <span>{row.problem}</span>
           </p>
-          <p className="border-t border-border bg-card/60 p-5 sm:p-6 md:border-t-0 md:border-l">
+          <p className="flex items-start gap-3 border-t border-border bg-card/60 p-5 sm:p-6 md:border-t-0 md:border-l">
             <span
-              className="mr-2 inline-block h-2 w-2 rounded-full bg-secondary-accent"
+              className="mt-[0.6rem] h-2 w-2 shrink-0 rounded-full bg-secondary-accent"
               aria-hidden="true"
             />
-            {row.fix}
+            <span>{row.fix}</span>
           </p>
         </div>
       ))}

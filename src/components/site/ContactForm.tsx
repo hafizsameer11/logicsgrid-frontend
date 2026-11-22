@@ -81,7 +81,7 @@ export function ContactForm({ variant = "contact" }: { variant?: "contact" | "au
     return (
       <div className="surface-card flex min-h-80 flex-col items-start justify-center" role="status">
         <CheckCircle2 className="h-10 w-10 text-secondary-accent" aria-hidden="true" />
-        <h2 className="mt-5 text-2xl font-semibold">Almost done. Send it on WhatsApp.</h2>
+        <h2 className="mt-5 text-2xl font-bold">Almost done. Send it on WhatsApp.</h2>
         <p className="mt-3 text-muted-foreground">
           We opened WhatsApp with your details filled in. Press send there and we will reply within
           24 hours on business days. Prefer email? Use the button below.
